@@ -20,16 +20,16 @@ class Experience extends Component {
         <div >
             <br></br>
             <h3> MeridianLink:  Management Intern </h3>
-            <p> Feb 2019 - Aug 2019 </p>
+            <p> Feb 2019 - Now</p>
             <br></br>
             <h3> Conservify Frontend:  Software Engineer Intern </h3>
-            <p> Dec 2018 - Aug 2019 </p>
+            <p> Dec 2018 - Now </p>
             <br></br>
             <h3> Weibo:  User Interface Design Intern </h3>
             <p> June 2018 - Aug 2018 </p>
             <br></br>
             <h3> Tsai City Center for Innovation:  Student Ambassador </h3>
-            <p> June 2018 - Aug 2018 </p>
+            <p> Nov 2017 - Oct 2018 </p>
             <br></br>
             <p> For more details or to connect, find me on
             <a href = "https://www.linkedin.com/in/felicia-chang-20666112a/"> Linkedin </a></p>
