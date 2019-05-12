@@ -19,9 +19,6 @@ class Experience extends Component {
         <br></br>
         <div >
             <br></br>
-            <h3> MeridianLink:  Management Intern </h3>
-            <p> Feb 2019 - Now</p>
-            <br></br>
             <h3> Conservify Frontend:  Software Engineer Intern </h3>
             <p> Dec 2018 - Now </p>
             <br></br>
