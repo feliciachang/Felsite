@@ -65,6 +65,8 @@ class AboutMe extends Component {
               </a>
               {");"}
               <br />
+              &emsp;{"}"}
+              <br />
               <br />
               &emsp;{"if (you would like to check out some of her work) {"}
               <br />
