@@ -19,9 +19,6 @@ class Experience extends Component {
         <br />
         <div>
           <br />
-          <h3> Thinkspaces: Cofounder</h3>
-          <p> Sept 2017 - Now</p>
-          <br />
           <h3> Conservify Frontend: Software Engineer Intern </h3>
           <p> Dec 2018 - Now </p>
           <br />
