@@ -1,10 +1,10 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Amiri|Goudy+Bookletter+1911&display=swap");
 
 body {
   margin: 0;
   padding: 0;
-  font-size: 17px;
-  font-family: "Roboto Mono", monospace;
+  font-family: "Roboto Mono" !important;
 }
 
 h1,
@@ -13,7 +13,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: Helvetica, serif !important;
+  font-family: "Goudy Bookletter 1911", serif !important;
 }
 
 code {

@@ -1,0 +1,19 @@
+.conservify-container {
+  background-color: "black";
+  height: 500px;
+  margin: auto;
+  margin-top: 60px;
+  margin-left: 40px;
+  margin-right: 40px;
+  padding-bottom: 50px;
+}
+
+.conservify-container img {
+  max-width: 80%;
+  max-height: auto;
+  width: auto;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
