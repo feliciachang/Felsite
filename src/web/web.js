@@ -27,7 +27,7 @@ class ConservifyPhoto extends Component {
   render() {
     return (
       <div className="field-container">
-        <img src={require("../assets/Fieldkit.png")} />
+        <img src="https://felswebsite.s3.amazonaws.com/fieldkit3.png" />
       </div>
     );
   }
@@ -37,7 +37,7 @@ class SamsaraPhoto extends Component {
   render() {
     return (
       <div className="sam-container">
-        <img src={require("../assets/sam.png")} />
+        <img src="https://felswebsite.s3.amazonaws.com/samsarawhite.png" />
       </div>
     );
   }
@@ -46,7 +46,7 @@ class YFashionPhoto extends Component {
   render() {
     return (
       <div className="image-container">
-        <img src={require("../assets/Untitled-9.png")} />
+        <img src="https://felswebsite.s3.amazonaws.com/yfashcover.png" />
       </div>
     );
   }
@@ -56,7 +56,7 @@ class WeiboPhoto extends Component {
   render() {
     return (
       <div className="image-container">
-        <img src={require("../assets/weibobanner.png")} />
+        <img src="https://felswebsite.s3.amazonaws.com/weibo.png" />
       </div>
     );
   }

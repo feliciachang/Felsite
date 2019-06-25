@@ -7,7 +7,7 @@ class SamsaraCard extends Component {
     return (
       <div>
         <div className="image-container">
-          <img src={require("../../assets/samasaraa.png")} />
+          <img src="https://felswebsite.s3.amazonaws.com/ssamsara.png" />
         </div>
         <br />
         <br />
@@ -15,19 +15,19 @@ class SamsaraCard extends Component {
           <Col>
             <div style={{ textAlign: "center" }}>Earthwater</div>
             <div className="image-container">
-              <img src={require("../../assets/1DX_7977-2.jpg")} />
+              <img src="https://felswebsite.s3.amazonaws.com/samsaraearth.jpg" />
             </div>
           </Col>
           <Col>
             <div style={{ textAlign: "center" }}>Sunset Rose</div>
             <div className="image-container">
-              <img src={require("../../assets/1DX_7977-9.jpg")} />
+              <img src="https://felswebsite.s3.amazonaws.com/samsararose.jpg" />
             </div>
           </Col>
           <Col>
             <div style={{ textAlign: "center" }}>Jasmine</div>
             <div className="image-container">
-              <img src={require("../../assets/1DX_7977-6.jpg")} />
+              <img src="https://felswebsite.s3.amazonaws.com/samsarajasmine2.jpg" />
             </div>
           </Col>
         </Row>

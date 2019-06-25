@@ -7,7 +7,7 @@ class ConservifyCard extends Component {
     return (
       <div>
         <div className="conservify-container">
-          <img src={require("../../assets/Fieldkit.png")} />
+          <img src="https://felswebsite.s3.amazonaws.com/fieldkit3.png" />
         </div>
       </div>
     );
