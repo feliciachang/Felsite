@@ -11,7 +11,7 @@ class PlayPhoto extends Component {
   render() {
     return (
       <div className="image-container">
-        <img src={require("../assets/play1.JPG")} />
+        <img src="https://felswebsite.s3.amazonaws.com/play1.JPG" />
       </div>
     );
   }
