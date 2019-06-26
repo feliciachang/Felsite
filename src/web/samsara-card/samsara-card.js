@@ -7,7 +7,7 @@ class SamsaraCard extends Component {
     return (
       <div>
         <div className="image-container">
-          <img src="https://felswebsite.s3.amazonaws.com/ssamsara.png" />
+          <img src="https://felswebsite.s3.amazonaws.com/samsarabanner.PNG" />
         </div>
         <br />
         <br />

@@ -1,13 +1,13 @@
 .poster-container {
   background-color: "black";
-  width: 400px;
+  width: 500px;
   margin: auto;
   margin-top: 20%;
 }
 
 .poster-container img {
   max-width: 90%;
-  max-height: auto;
+  max-height: 90%;
   width: auto;
   height: auto;
   display: block;

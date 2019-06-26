@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import { Row, Col } from "reactstrap";
 import ExperienceCard from "../components/experience-card";
 import ExperienceCard2 from "../components/experience-card2";
+import PlayCard from "./play/play.js";
 
 var bodyStyle = {
   margin: "80px"
@@ -31,8 +32,9 @@ class PersonalWork extends Component {
           <ExperienceCard2
             name="pLaY"
             date="2019-now"
-            graph1=""
+            graph1="An exercise on preserving the essence of play, something that I believe disapates as we move into adulthood."
             mainPhoto={<PlayPhoto />}
+            graphics={<PlayCard />}
           />
         </div>
         <br />

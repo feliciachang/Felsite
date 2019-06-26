@@ -12,7 +12,12 @@ var bodyStyle = {
 const TogglePhoto = show => {
   console.log(show);
   if (show) {
-    return <img src="https://felswebsite.s3.amazonaws.com/IMG_2949.GIF" />;
+    return (
+      <img
+        src="https://felswebsite.s3.amazonaws.com/IMG_2949.GIF"
+        height="100%"
+      />
+    );
   } else {
     return <div />;
   }
@@ -38,17 +43,20 @@ class AboutMe extends Component {
                 <br />
                 &emsp; {"while ( Felicia is at Yale University ) {"}
                 <br />
-                &emsp;&emsp;&emsp; {"she studies in Computer Science;"}
+                &emsp;&emsp;&emsp; {"she studies Computer Science;"}
                 <br />
-                &emsp;&emsp;&emsp; {"enjoys working on cool web projects;"}
+                &emsp;&emsp;&emsp; {"with interests in the intersections;"}
                 <br />
-                &emsp;&emsp;&emsp; {"is interested in product management;"}
+                &emsp;&emsp;&emsp; {"between tech, society and art;"}
                 <br />
-                &emsp;&emsp;&emsp; {"and intersections between tech and art;"}
+                &emsp;&emsp;&emsp; {"is always working on side projects;"}
+                <br />
+                &emsp;&emsp;&emsp;{" "}
+                {"and front projects; //she's not very funny"}
                 <br />
                 &emsp;&emsp;&emsp; {"plays on the varsity golf team;"}
                 <br />
-                &emsp;&emsp;&emsp; {"eats a lot of bell peppers;"}
+                &emsp;&emsp;&emsp; {"and eats a lot of bell peppers;"}
                 <br />
                 &emsp;{"}"}
                 <br />
@@ -90,7 +98,7 @@ class AboutMe extends Component {
                     this.setState({ compile: !this.state.compile });
                   }}
                 >
-                  Compile Me
+                  Compile Felicia
                 </div>
               )}
             </Col>
