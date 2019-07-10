@@ -26,7 +26,7 @@ class ThinkspacesPhoto extends Component {
 class ConservifyPhoto extends Component {
   render() {
     return (
-      <div className="field-container">
+      <div className="image-container">
         <img src="https://felswebsite.s3.amazonaws.com/fieldkit3.png" />
       </div>
     );
@@ -36,7 +36,7 @@ class ConservifyPhoto extends Component {
 class SamsaraPhoto extends Component {
   render() {
     return (
-      <div className="sam-container">
+      <div className="image-container">
         <img src="https://felswebsite.s3.amazonaws.com/samsaracentered.png" />
       </div>
     );
