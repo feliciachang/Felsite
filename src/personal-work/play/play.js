@@ -8,7 +8,7 @@ class PlayCard extends Component {
         <Row>
           <Col>
             <div className="image-container">
-              <img src="https://felswebsite.s3.amazonaws.com/play1.JPG" />
+              <img src="https://felswebsite.s3.amazonaws.com/playy3.jpg" />
             </div>
           </Col>
           <Col>
