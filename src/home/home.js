@@ -48,8 +48,7 @@ class AboutMe extends Component {
                 &emsp;&emsp;&emsp;{" "}
                 {"is not a self proclaimed creative technologist;"}
                 <br />
-                &emsp;&emsp;&emsp;{" "}
-                {"but does builds things in the intersections;"}
+                &emsp;&emsp;&emsp; {"but does explore the intersections;"}
                 <br />
                 &emsp;&emsp;&emsp; {"of tech, society, and art;"}
                 <br />

@@ -88,7 +88,7 @@ class Web extends Component {
           <ExperienceCard2
             name="Conservify"
             date="2018-now"
-            position="Frontend Software Engineer Intern"
+            position="Software Engineer Intern"
             tools="React Native, Redux, Jest, Enzyme, Mapbox API, AdobeXD"
             graph1="Conservify is a nonprofit startup that develops open-source sensor and communication modules with a compatible mobile app and website, used for conservation research by multiple groups including National Geographic. "
             graph2="At Conservify, I contributed to the FieldKit mobile app, which allows users to interface with their FieldKit device, a sensor module composed of many different environmental sensors. Given my background in design, I was able to design prototypes in Adobe XD and build the frontend functionality. For UX, I pitched a redesign of the central app navigation, building a custom tab navigation component. I also participated in meetings on user experience to help develop user personas, build user journeys, and plan features. "
