@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import { Row, Col } from "reactstrap";
 import "./thinkspaces-card.css";
+import LazyLoad from "react-lazyload";
 
 class ThinkspacesCard extends Component {
   render() {
@@ -10,16 +11,22 @@ class ThinkspacesCard extends Component {
           <Col>
             <div>
               <div className="circlelogo-container">
-                <img src="https://felswebsite.s3.amazonaws.com/thinkspacescircle.png" />
+                <LazyLoad>
+                  <img src="https://felswebsite.s3.amazonaws.com/thinkspacescircle.png" />
+                </LazyLoad>
               </div>
               <div className="logo-container">
-                <img src="https://felswebsite.s3.amazonaws.com/thinkspaceslogowhite.png" />
+                <LazyLoad>
+                  <img src="https://felswebsite.s3.amazonaws.com/thinkspaceslogowhite.png" />
+                </LazyLoad>
               </div>
             </div>
           </Col>
           <Col>
             <div className="poster-container">
-              <img src="https://felswebsite.s3.amazonaws.com/thinkspacesposter.png" />
+              <LazyLoad>
+                <img src="https://felswebsite.s3.amazonaws.com/thinkspacesposter.png" />
+              </LazyLoad>
             </div>
           </Col>
         </Row>
