@@ -15,32 +15,39 @@ class SamsaraCard extends Component {
         </div>
         <br />
         <br />
-        <Row>
-          <Col>
+        <div
+          style={{
+            display: "flex",
+            flexDirection: "row",
+            alignItems: "center",
+            justifyContent: "center"
+          }}
+        >
+          <div>
             <div style={{ textAlign: "center" }}>Earthwater</div>
             <div className="image-container">
               <LazyLoad>
                 <img src="https://felswebsite.s3.amazonaws.com/samsaraearth.jpg" />
               </LazyLoad>
             </div>
-          </Col>
-          <Col>
+          </div>
+          <div>
             <div style={{ textAlign: "center" }}>Sunset Rose</div>
             <div className="image-container">
               <LazyLoad>
                 <img src="https://felswebsite.s3.amazonaws.com/samsararose.jpg" />
               </LazyLoad>
             </div>
-          </Col>
-          <Col>
+          </div>
+          <div>
             <div style={{ textAlign: "center" }}>Jasmine</div>
             <div className="image-container">
               <LazyLoad>
                 <img src="https://felswebsite.s3.amazonaws.com/samsarajasmine2.jpg" />
               </LazyLoad>
             </div>
-          </Col>
-        </Row>
+          </div>
+        </div>
       </div>
     );
   }

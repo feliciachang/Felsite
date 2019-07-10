@@ -2,7 +2,8 @@
   background-color: "black";
   width: 500px;
   margin: auto;
-  margin-top: 20%;
+
+  margin-top: 5%;
 }
 
 .poster-container img {
@@ -19,7 +20,8 @@
   background-color: "black";
   width: 250px;
   margin: auto;
-  margin-top: 25%;
+
+  margin-top: 5%;
 }
 .circlelogo-container img {
   max-width: 90%;
@@ -34,7 +36,7 @@
   background-color: "black";
   width: 450px;
   margin: auto;
-  margin-top: 20px;
+  margin-top: 3%;
 }
 
 .logo-container img {
