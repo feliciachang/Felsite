@@ -1,14 +1,54 @@
 .conservify-container {
   background-color: "black";
+  height: 600px;
+  margin: auto;
+  margin-top: 60px;
+  margin-left: 40px;
+  margin-right: 40px;
+  padding-bottom: 20px;
+}
+
+.conservify-container img {
+  max-width: 80%;
+  max-height: 90%;
+  width: auto;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.conservify2-container {
+  background-color: "black";
   height: 500px;
   margin: auto;
   margin-top: 60px;
   margin-left: 40px;
   margin-right: 40px;
-  padding-bottom: 50px;
+  padding-bottom: 20px;
 }
 
-.conservify-container img {
+.conservify2-container img {
+  max-width: 80%;
+  max-height: 90%;
+  width: auto;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.sketch-container {
+  background-color: "black";
+  height: 700px;
+  margin: auto;
+  margin-top: 60px;
+  margin-left: 50px;
+  margin-right: 50px;
+  padding-bottom: 20px;
+}
+
+.sketch-container img {
   max-width: 80%;
   max-height: 90%;
   width: auto;

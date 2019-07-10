@@ -45,14 +45,15 @@ class AboutMe extends Component {
                 <br />
                 &emsp;&emsp;&emsp; {"she studies Computer Science;"}
                 <br />
-                &emsp;&emsp;&emsp; {"with interests in the intersections;"}
-                <br />
-                &emsp;&emsp;&emsp; {"between tech, society and art;"}
-                <br />
-                &emsp;&emsp;&emsp; {"is always working on side projects;"}
+                &emsp;&emsp;&emsp;{" "}
+                {"is not a self proclaimed creative technologist;"}
                 <br />
                 &emsp;&emsp;&emsp;{" "}
-                {"and front projects; //she's not very funny"}
+                {"but does builds things in the intersections;"}
+                <br />
+                &emsp;&emsp;&emsp; {"of tech, society, and art;"}
+                <br />
+                &emsp;&emsp;&emsp; {"is always working on side projects;"}
                 <br />
                 &emsp;&emsp;&emsp; {"plays on the varsity golf team;"}
                 <br />

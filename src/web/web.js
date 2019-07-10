@@ -37,7 +37,7 @@ class SamsaraPhoto extends Component {
   render() {
     return (
       <div className="sam-container">
-        <img src="https://felswebsite.s3.amazonaws.com/samsarawhite.png" />
+        <img src="https://felswebsite.s3.amazonaws.com/samsaracentered.png" />
       </div>
     );
   }
