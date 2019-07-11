@@ -32,7 +32,7 @@ class ThinkspacesCard extends Component {
           }}
         >
           <div>
-            <div style={{ textAlign: "center" }}>Home</div>
+            <div style={{ textAlign: "center" }}>Project Page</div>
             <div className="image-container">
               <LazyLoad>
                 <img src="https://felswebsite.s3.amazonaws.com/Web+1920+%E2%80%93+1.png" />
@@ -40,7 +40,7 @@ class ThinkspacesCard extends Component {
             </div>
           </div>
           <div>
-            <div style={{ textAlign: "center" }}>Explore</div>
+            <div style={{ textAlign: "center" }}>Home</div>
             <div className="image-container">
               <LazyLoad>
                 <img src="https://felswebsite.s3.amazonaws.com/Web+1920+%E2%80%93+22.png" />
@@ -48,7 +48,7 @@ class ThinkspacesCard extends Component {
             </div>
           </div>
           <div>
-            <div style={{ textAlign: "center" }}>Project Page</div>
+            <div style={{ textAlign: "center" }}>Explore</div>
             <div className="image-container">
               <LazyLoad>
                 <img src="https://felswebsite.s3.amazonaws.com/Web+1920+%E2%80%93+4.png" />
