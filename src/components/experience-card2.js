@@ -69,7 +69,7 @@ class ExperienceCard2 extends Component {
               {graph2}
               <br />
               <br />
-              {graph2}
+              {graph3}
             </div>
             {graphics}
           </div>

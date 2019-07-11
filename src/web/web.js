@@ -62,6 +62,16 @@ class WeiboPhoto extends Component {
   }
 }
 
+class CameraTrapPhoto extends Component {
+  render() {
+    return (
+      <div className="image-container">
+        <img src="https://felswebsite.s3.amazonaws.com/DSC00308-4.jpg" />
+      </div>
+    );
+  }
+}
+
 //<a href="https://thinkspaces.org/"> thinkspaces.org/ </a>
 class Web extends Component {
   render() {
@@ -86,8 +96,19 @@ class Web extends Component {
           />
           <br />
           <ExperienceCard2
-            name="Conservify"
-            date="2018-now"
+            name="Conservify: Camera Traps on the Edge"
+            date="2019-now"
+            position="Software Engineer Intern"
+            tools="Python, TensorFlow, Google AIY, Raspberry Pi"
+            graph1="Camera traps are ubiquotous tools in environmental conservation. Most researchers will systematically deploy tens of hundreds of camera traps in the wild to monitor animals. The camera, triggered with an infared sensor, will capture whatever movement it encounters. This is a boon and a curse for researchers, who now have more data than they can process."
+            graph2="By providing on device machine learning capabilities in camera traps, we can significantly reduce the time spent parsing through camera trap images and make conservation work more efficient. As an intern, I was tasked with prototyping Conservify's first camera trap on the edge, starting with Google AIY's vision project. The Google AIY comes with three core pieces of hardware: a Raspberry Pi, Vision Bonnnet used to process ML models, and a Raspberry Pi Camera. I then attached a PIR sensor and battery so that the camera can capture images autonomously."
+            graph3="The machine learning work was much more intensive, however. The Google AIY comes with TensorFlow models but none of which satisfy the needs of this project. As a result, I spent the first few weeks conducting due diligence and learning the capabilities of animal recognition today. After speaking with a researcher at Caltech, I concluded that the most practical service we could provide for a camera trap on the edge was robust object detection complemented with an array of different animal identification models based on type and ecosystem. I am currently in the process of building the object detection model by retraining TensorFlow's object detection API with the CalTech Camera Trap image database."
+            mainPhoto={<CameraTrapPhoto />}
+          />
+          <br />
+          <ExperienceCard2
+            name="Conservify: FieldKit Mobile App"
+            date="2018-2019"
             position="Software Engineer Intern"
             tools="React Native, Redux, Jest, Enzyme, Mapbox API, AdobeXD"
             graph1="Conservify is a nonprofit startup that develops open-source sensor and communication modules with a compatible mobile app and website, used for conservation research by multiple groups including National Geographic. "
