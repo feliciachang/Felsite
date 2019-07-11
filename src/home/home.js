@@ -45,18 +45,16 @@ class AboutMe extends Component {
                 <br />
                 &emsp;&emsp;&emsp; {"she studies Computer Science;"}
                 <br />
+                &emsp;&emsp;&emsp; {"explores technology and art;"}
+                <br />
                 &emsp;&emsp;&emsp;{" "}
-                {"is not a self proclaimed creative technologist;"}
-                <br />
-                &emsp;&emsp;&emsp; {"but does explore the intersections;"}
-                <br />
-                &emsp;&emsp;&emsp; {"of tech, society, and art;"}
+                {"and all the human computer interaction in between;"}
                 <br />
                 &emsp;&emsp;&emsp; {"is always working on side projects;"}
                 <br />
                 &emsp;&emsp;&emsp; {"plays on the varsity golf team;"}
                 <br />
-                &emsp;&emsp;&emsp; {"and eats a lot of bell peppers;"}
+                &emsp;&emsp;&emsp; {"eats a lot of bell peppers;"}
                 <br />
                 &emsp;{"}"}
                 <br />
@@ -79,6 +77,16 @@ class AboutMe extends Component {
                 &emsp;{"if (you would like to check out some of her work) {"}
                 <br />
                 &emsp;&emsp;&emsp;{"scroll on down;"}
+                <br />
+                &emsp;&emsp;&emsp;{"or if you're tired of this website;"}
+                <br />
+                &emsp;&emsp;&emsp;{"find me on"}
+                <a href="https://www.linkedin.com/in/felicia-chang-20666112a/">
+                  {" "}
+                  LinkedIn{" "}
+                </a>
+                ,<a href="https://github.com/feliciachang"> Github </a>, or
+                <a href="https://twitter.com/felchang"> Twitter </a>
                 <br />
                 &emsp;{"}"}
                 <br />
