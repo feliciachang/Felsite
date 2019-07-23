@@ -3,10 +3,21 @@ import { Row, Col } from "reactstrap";
 import ExperienceCard from "../components/experience-card";
 import ExperienceCard2 from "../components/experience-card2";
 import PlayCard from "./play/play.js";
+import InternetCard from "./internet_child/internet_child.js";
 
 var bodyStyle = {
   margin: "80px"
 };
+
+class InternetChildPhoto extends Component {
+  render() {
+    return (
+      <div className="image-container">
+        <img src="https://felswebsite.s3.amazonaws.com/InternetChild_0853.JPG" />
+      </div>
+    );
+  }
+}
 
 class PlayPhoto extends Component {
   render() {
@@ -28,6 +39,15 @@ class PersonalWork extends Component {
             {" "}
             {"// Personal Work"}
           </h1>
+          <br />
+          <ExperienceCard2
+            name="Internet Child"
+            date="2019-now"
+            tools="Processing"
+            graph1="Conversations with my computer."
+            mainPhoto={<InternetChildPhoto />}
+            graphics={<InternetCard />}
+          />
           <br />
           <ExperienceCard2
             name="pLaY"
