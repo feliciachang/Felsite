@@ -2,6 +2,10 @@ import React, { Component } from "react";
 import { Row, Col, Button } from "reactstrap";
 import "./experience-card.css";
 
+// <div
+//   style={{ marginRight: "20%", marginLeft: "20%", marginTop: 40 }}
+// >
+
 class ExperienceCard2 extends Component {
   state = {
     photoDisplay: false
@@ -17,7 +21,8 @@ class ExperienceCard2 extends Component {
       graph2,
       graph3,
       graphics,
-      mainPhoto
+      mainPhoto,
+      button
     } = this.props;
     console.log(this.state.photoDisplay);
     return (
@@ -42,8 +47,6 @@ class ExperienceCard2 extends Component {
               <Row>{date}</Row>
               <Row>{position}</Row>
               <br />
-              <Row>{tools}</Row>
-              <br />
               <Row>
                 <div
                   className="expand-button"
@@ -63,6 +66,9 @@ class ExperienceCard2 extends Component {
             <div
               style={{ marginRight: "20%", marginLeft: "20%", marginTop: 40 }}
             >
+              Tools: {tools}
+              <br />
+              <br />
               {graph1}
               <br />
               <br />

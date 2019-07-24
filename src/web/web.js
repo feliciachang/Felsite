@@ -1,12 +1,13 @@
 import React, { Component } from "react";
 import { Row, Col } from "reactstrap";
 import ExperienceCard from "../components/experience-card";
-import ThinkspacesCard from "./thinkspaces-card/thinkspaces-card";
+import ThinkspacesCard from "./thinkspaces/thinkspaces-card";
 import ConservifyCard from "./conservify-card/conservify-card";
 import SamsaraCard from "./samsara-card/samsara-card";
 import WeiboCard from "./weibo-card/weibo-card";
 import YFashionCard from "./yfashion-card/yfashion-card";
 import ExperienceCard2 from "../components/experience-card2";
+import { Redirect } from "react-router-dom";
 import "./web.css";
 
 var bodyStyle = {
@@ -74,6 +75,11 @@ class CameraTrapPhoto extends Component {
 
 //<a href="https://thinkspaces.org/"> thinkspaces.org/ </a>
 class Web extends Component {
+  goToThinkspaces = () => {
+    console.log("blah");
+    return <Redirect to="ThinkspacesPage" />;
+  };
+
   render() {
     return (
       <div>
@@ -89,7 +95,7 @@ class Web extends Component {
             position="Cofounder"
             tools="ReactJS, Firebase, Google Analytics, AdobeXD"
             graph1="Thinkspaces is a web platform that connects students to opportunities on university campuses. Driven by the mission to make collaboration easier between people, Thinkspaces centralizes both student led endeavors like startups, passion projects, and research along with paid on-campus jobs. We released our minimum viable product in October 2018 and our second prototype in January 2019, hosting more than 40 projects and 300+ monthly users. In the Spring of 2018, we entered Yale’s Spring Accelerator and won the Audience Choice Award at the final pitchoff."
-            graph2="As a cofounder with both technical and design experience, I was involved with the product development process from ideation to execution. I worked on fullstack development, coding interface wireframes and features with ReactJS and a Google Firebase backend. Our working prototype gave users the ability to authenticate, build profiles, post projects, and support other projects with likes. We are currently building our third version that will support custom-built filtering and search features and micro-services using Google Cloud Functions."
+            graph2=""
             graph3=""
             mainPhoto={<ThinkspacesPhoto />}
             graphics={<ThinkspacesCard />}
@@ -98,7 +104,7 @@ class Web extends Component {
           <ExperienceCard2
             name="Conservify: Camera Traps on the Edge"
             date="2019-now"
-            position="Software Engineer Intern"
+            position="Intern: Prototyping + Software Engineering"
             tools="Python, TensorFlow, Google AIY, Raspberry Pi"
             graph1="Camera traps are ubiquotous tools in environmental conservation. Most researchers will systematically deploy tens of hundreds of camera traps in the wild to monitor animals. The camera, triggered with an infared sensor, will capture whatever movement it encounters. This is a boon and a curse for researchers, who now have more data than they can process."
             graph2="By providing on device machine learning capabilities in camera traps, we can significantly reduce the time spent parsing through camera trap images and make conservation work more efficient. As an intern, I was tasked with prototyping Conservify's first camera trap on the edge, starting with Google AIY's vision project. The Google AIY comes with three core pieces of hardware: a Raspberry Pi, Vision Bonnnet used to process ML models, and a Raspberry Pi Camera. I then attached a PIR sensor and battery so that the camera can capture images autonomously."
@@ -109,7 +115,7 @@ class Web extends Component {
           <ExperienceCard2
             name="Conservify: FieldKit Mobile App"
             date="2018-2019"
-            position="Software Engineer Intern"
+            position="Intern: UI/UX + Frontend Engineering"
             tools="React Native, Redux, Jest, Enzyme, Mapbox API, AdobeXD"
             graph1="Conservify is a nonprofit startup that develops open-source sensor and communication modules with a compatible mobile app and website, used for conservation research by multiple groups including National Geographic. "
             graph2="At Conservify, I contributed to the FieldKit mobile app, which allows users to interface with their FieldKit device, a sensor module composed of many different environmental sensors. Given my background in design, I was able to design prototypes in Adobe XD and build the frontend functionality. For UX, I pitched a redesign of the central app navigation, building a custom tab navigation component. I also participated in meetings on user experience to help develop user personas, build user journeys, and plan features. "
@@ -132,7 +138,7 @@ class Web extends Component {
           <ExperienceCard2
             name="Weibo"
             date="2018-now"
-            position="UI Design Intern"
+            position="Intern: UI Design"
             tools="Sketch"
             graph1="Weibo, a microblogging app, is one of the largest social media companies in China with more than 400 million monthly active users. Weibo combines functionalities from many of the social media platforms in the United States and China, with payment capabilities, blogging, and stories."
             graph2="At Weibo, I worked in cross functional teams across product, UX, and software development for a variety of projects. I began with designing icons for Weibo’s main app and later designed entire iPhone interfaces for a new in-app game called Panda Keeper."
