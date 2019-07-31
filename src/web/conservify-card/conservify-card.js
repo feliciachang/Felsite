@@ -1,6 +1,8 @@
 import React, { Component } from "react";
 import { Row, Col } from "reactstrap";
 import "./conservify-card.css";
+import "react-responsive-carousel/lib/styles/carousel.min.css";
+import { Carousel } from "react-responsive-carousel";
 
 class ConservifyCard extends Component {
   render() {
@@ -9,13 +11,25 @@ class ConservifyCard extends Component {
         <h3 style={{ textAlign: "center", paddingTop: 50 }}>
           Initial Sketches
         </h3>
-        <div style={{ justifyContent: "space between" }}>
-          <div className="sketch-container">
-            <img src="https://felswebsite.s3.amazonaws.com/IMG_0791.jpg" />
-          </div>
-          <div className="sketch-container">
-            <img src="https://felswebsite.s3.amazonaws.com/IMG_0797.jpg" />
-          </div>
+        <div
+          style={{
+            marginRight: "30%",
+            marginLeft: "30%"
+          }}
+        >
+          <Carousel
+            useKeyboardArrows={true}
+            showIndicators={false}
+            showStatus={false}
+            showArrows={false}
+          >
+            <div>
+              <img src="https://felswebsite.s3.amazonaws.com/IMG_0791.jpg" />
+            </div>
+            <div>
+              <img src="https://felswebsite.s3.amazonaws.com/IMG_0797.jpg" />
+            </div>
+          </Carousel>
         </div>
         <h3 style={{ textAlign: "center" }}>First UI Iterations</h3>
         <div className="conservify2-container">

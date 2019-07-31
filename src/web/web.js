@@ -141,8 +141,8 @@ class Web extends Component {
             position="Intern: UI Design"
             tools="Sketch"
             graph1="Weibo, a microblogging app, is one of the largest social media companies in China with more than 400 million monthly active users. Weibo combines functionalities from many of the social media platforms in the United States and China, with payment capabilities, blogging, and stories."
-            graph2="At Weibo, I worked in cross functional teams across product, UX, and software development for a variety of projects. I began with designing icons for Weibo’s main app and later designed entire iPhone interfaces for a new in-app game called Panda Keeper."
-            graph3="In addition to designing content, I also conducted product analysis of Weibo’s competitors. My study focused on comparing how social media and news apps in China displayed information through different card designs."
+            graph2="At Weibo, I worked in cross functional teams across product, UX, and software development for a variety of projects over the course of two months."
+            graph3=""
             mainPhoto={<WeiboPhoto />}
             graphics={<WeiboCard />}
           />
