@@ -128,7 +128,7 @@ class Web extends Component {
             name="Samsara"
             date="2019-now"
             tools="Photoshop, Lightroom, Illustrator"
-            position="Branding Lead"
+            position="UI/UX + Graphic Design"
             graph1="Samsara is a working project created by myself and three Yale graduates. We are working to bring traditional Indian perfume called Attar to the American market. A luxury perfume, Samsara focuses on delivering perfume made with pure ingredients and essential oils."
             graph2=""
             mainPhoto={<SamsaraPhoto />}
