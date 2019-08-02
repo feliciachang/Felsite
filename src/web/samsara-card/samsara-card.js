@@ -19,11 +19,12 @@ class SamsaraCard extends Component {
           <h3 style={{ textAlign: "center", paddingTop: 50 }}> Web Design </h3>
           <br />
           <p>
-            With our website, we wanted to showcase the history of traditional
-            Indian perfume. To built a UI that complemented the themes of
-            historicism and luxury, I opted for two simple serif and sans serif
-            fonts. I kept the site structure as minimal as possible, but created
-            beige frames around each photo to provide a vintage feel.
+            With our website, we wanted to communicate the history and unique
+            process of manufacturing of traditional Indian perfume. To do so, I
+            needed to build a UI that complemented the themes of historicism and
+            luxury, I opted for two simple serif and sans serif fonts. I also
+            kept the site structure as minimal as possible, but created beige
+            frames around each photo to provide a vintage feel.
           </p>
           <br />
           <Carousel
@@ -75,8 +76,10 @@ class SamsaraCard extends Component {
           </h3>
           <br />
           <p>
-            Following the famed theme from the web page, I built our product
-            catalog in the same manner. I used
+            Following the framed theme from the web page, I built our product
+            catalog in the same manner. I also took image assets of our
+            ingredients, which served as the frame around the perfume since we
+            had the same packaging for every scent.
           </p>
           <div
             style={{
