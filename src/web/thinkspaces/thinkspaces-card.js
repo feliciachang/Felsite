@@ -138,9 +138,24 @@ class ThinkspacesCard extends Component {
         </div>
         <br />
         <br />
-        <h3 style={{ textAlign: "center", paddingTop: 50 }}>
-          Branding Materials
-        </h3>
+        <h3 style={{ textAlign: "center", paddingTop: 50 }}>Logo Brainstorm</h3>
+        <p style={{ marginLeft: "20%", marginRight: "20%" }}>
+          My main objective with the Thinkspaces logo was to communicate
+          Thinkspaces' devotion to creativity. To do so, I wanted to build an
+          identity that was bright and spunky. I experimented with many
+          different symbols and colors, as seen below:
+        </p>
+        <div className="image-container">
+          <LazyLoad>
+            <img src="https://felswebsite.s3.amazonaws.com/thinkspaceslogoideas2.png" />
+          </LazyLoad>
+        </div>
+        <br />
+        <p style={{ marginLeft: "20%", marginRight: "20%" }}>
+          We concluded with the logo below as it seemed to capture most
+          accurately the spontaneity of a great idea. It was bright, fun, and
+          not too corporate.
+        </p>
         <div className="circlelogo-container">
           <LazyLoad>
             <img src="https://felswebsite.s3.amazonaws.com/thinkspacescircle.png" />

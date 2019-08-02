@@ -130,7 +130,7 @@ class Web extends Component {
             tools="Photoshop, Lightroom, Illustrator"
             position="Branding Lead"
             graph1="Samsara is a working project created by myself and three Yale graduates. We are working to bring traditional Indian perfume called Attar to the American market. A luxury perfume, Samsara focuses on delivering perfume made with pure ingredients and essential oils."
-            graph2="In a series of design sprints, we developed the Samsara logo and mood board that then informed our website and product design. Our objective in branding was to bridge the all-natural ingredients of the perfume to the historicism of attar."
+            graph2=""
             mainPhoto={<SamsaraPhoto />}
             graphics={<SamsaraCard />}
           />
