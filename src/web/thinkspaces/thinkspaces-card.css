@@ -32,6 +32,22 @@
   margin: 0 auto;
 }
 
+.card-container {
+  background-color: "black";
+  width: 300px;
+  margin: auto;
+  margin-top: 3%;
+}
+
+.card-container img {
+  max-width: 90%;
+  max-height: auto;
+  width: auto;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
 .logo-container {
   background-color: "black";
   width: 450px;

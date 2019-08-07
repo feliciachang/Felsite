@@ -5,6 +5,7 @@ import ExperienceCard2 from "../components/experience-card2";
 import PlayCard from "./play/play.js";
 import InternetCard from "./internet_child/internet_child.js";
 import GraphicCard from "./graphicdesign/graphicdesign.js";
+import WaterCard from "./water/water.js"
 
 var bodyStyle = {
   margin: "80px"
@@ -14,7 +15,7 @@ class InternetChildPhoto extends Component {
   render() {
     return (
       <div className="image-container">
-        <img src="https://felswebsite.s3.amazonaws.com/InternetChild_0853.JPG" />
+        <img src="https://felswebsite.s3.amazonaws.com/InternetChild_0864.JPG" />
       </div>
     );
   }
@@ -39,6 +40,15 @@ class IntroGraphic extends Component {
     );
   }
 }
+class WaterGraphic extends Component {
+  render() {
+    return (
+      <div className="image-container">
+        <img src="https://felswebsite.s3.amazonaws.com/water1.png" />
+      </div>
+    );
+  }
+}
 
 // https://felswebsite.s3.amazonaws.com/intrographic/unnamed.jpg
 //<a href="https://thinkspaces.org/"> thinkspaces.org/ </a>
@@ -51,6 +61,15 @@ class PersonalWork extends Component {
             {" "}
             {"// Personal Work"}
           </h1>
+          <br />
+          <ExperienceCard2
+            name="Material Study - Water"
+            date="2019-now"
+            tools="Java - Processing"
+            graph1="Photo manipulation of water. More to come.."
+            mainPhoto={<WaterGraphic/>}
+            graphics={<WaterCard />}
+          />
           <br />
           <ExperienceCard2
             name="Internet Child"
