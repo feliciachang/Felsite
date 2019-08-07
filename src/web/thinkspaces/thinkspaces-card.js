@@ -117,18 +117,6 @@ class ThinkspacesCard extends Component {
         <br/>
         <h3 style={{ textAlign: "center", paddingTop: 50 }}>Project Card Case Study</h3>
         <br />
-        <p style={{ marginLeft: "20%", marginRight: "20%" }}>
-          There were two big problems with our project card:
-        </p>
-        <br />
-        <p style={{ marginLeft: "20%", marginRight: "20%" }}>
-          1. Many projects didn't have image assets or logos. Yet the largest area of our project card was dedicated to the image. As a result, we often spent unnecessary time giving early-stage projects stock photos to add to their project card. And, projects without photos often recieved less clickthroughs even if they had a good idea. Our goal with V2 was to minimize the importance of an image asset.
-        </p>
-          <br />
-        <p style={{ marginLeft: "20%", marginRight: "20%" }}>
-          2. Project seekers don't know what roles/how many roles are available in a project unless they click on it. In our MVP, we had avoided mentioning available roles becuase we didn't want to get pigeonholed into being a job board. But without displaying roles in the project card, users were spending unnecessary time clicking through projects that they couldn't participate in. We made a compromise and built the most minimalist roles section that still provided pertinent information.
-        </p>
-        <br/>
         <div style={{ marginLeft: "20%", marginRight: "20%" }}>
         <Row>
         <Col>
@@ -146,8 +134,21 @@ class ThinkspacesCard extends Component {
         </Col>
         </Row>
         </div>
-        <h3 style={{ textAlign: "center", paddingTop: 50 }}>Version 2</h3>
+        <p style={{ marginLeft: "20%", marginRight: "20%" }}>
+          There were two big problems with our project card:
+        </p>
         <br />
+        <p style={{ marginLeft: "20%", marginRight: "20%" }}>
+          1. Many projects didn't have image assets or logos. Yet the largest area of our project card was dedicated to the image. As a result, we often spent unnecessary time giving early-stage projects stock photos to add to their project card. And, projects without photos often recieved less clickthroughs even if they had a good idea. Our goal with V2 was to minimize the importance of an image asset.
+        </p>
+          <br />
+        <p style={{ marginLeft: "20%", marginRight: "20%" }}>
+          2. Project seekers don't know what roles/how many roles are available in a project unless they click on it. In our MVP, we had avoided mentioning available roles becuase we didn't want to get pigeonholed into being a job board. But without displaying roles in the project card, users were spending unnecessary time clicking through projects that they couldn't participate in. We made a compromise and built the most minimalist roles section that still provided pertinent information.
+        </p>
+        <br/>
+        <br/>
+        <h3 style={{ textAlign: "center", paddingTop: 50 }}>Version 2</h3>
+        <br />t
         <div
           style={{
             marginRight: "20%",
