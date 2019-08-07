@@ -100,14 +100,12 @@ class ThinkspacesCard extends Component {
           marketplace is not necessary.
         </p>
         <p style={{ marginLeft: "20%", marginRight: "20%" }}>
-          2. Easier Project Filtering. While we liked the fact that an infinite
+          2. Easier Project Filtering. While an infinite
           scroll encouraged project exploration, users wanted to be able to find
-          projects they were most likely to be interested in quickly.
+          speicific projects quickly.
         </p>
         <p style={{ marginLeft: "20%", marginRight: "20%" }}>
-          3. Quality Control. Because we hosted a diversity of projects, from
-          early stage to released, we needed to build UI that would help
-          maintain the quality of of website.
+          3. Quality Control. Because we host projects from early stage to released, we needed to build a UI that maintained consistency despite the diversity of projects.
         </p>
         <br />
         <p style={{ marginLeft: "20%", marginRight: "20%" }}>
@@ -134,16 +132,17 @@ class ThinkspacesCard extends Component {
         </Col>
         </Row>
         </div>
+        <br/>
         <p style={{ marginLeft: "20%", marginRight: "20%" }}>
           There were two big problems with our project card:
         </p>
         <br />
         <p style={{ marginLeft: "20%", marginRight: "20%" }}>
-          1. Many projects didn't have image assets or logos. Yet the largest area of our project card was dedicated to the image. As a result, we often spent unnecessary time giving early-stage projects stock photos to add to their project card. And, projects without photos often recieved less clickthroughs even if they had a good idea. Our goal with V2 was to minimize the importance of an image asset.
+          1. Many projects didn't have image assets or logos. By minimizing and repositioning the image, project cards without image assets could still look polished.
         </p>
           <br />
         <p style={{ marginLeft: "20%", marginRight: "20%" }}>
-          2. Project seekers don't know what roles/how many roles are available in a project unless they click on it. In our MVP, we had avoided mentioning available roles becuase we didn't want to get pigeonholed into being a job board. But without displaying roles in the project card, users were spending unnecessary time clicking through projects that they couldn't participate in. We made a compromise and built the most minimalist roles section that still provided pertinent information.
+          2. Project seekers don't know what roles/how many roles are available in a project unless they click on it. In the new card design, we have a designated a specific section describing available roles.
         </p>
         <br/>
         <br/>
@@ -176,10 +175,10 @@ class ThinkspacesCard extends Component {
         <br />
         <h3 style={{ textAlign: "center", paddingTop: 50 }}>Logo Brainstorm</h3>
         <p style={{ marginLeft: "20%", marginRight: "20%" }}>
-          My main objective with the Thinkspaces logo was to communicate
+          My main objective with the logo was to communicate
           Thinkspaces' devotion to creativity. To do so, I wanted to build an
-          identity that was bright and spunky. I experimented with many
-          different symbols and colors, as seen below:
+          identity that was bright and spunky, experimenting with
+          different symbols and colors.
         </p>
         <div className="image-container">
           <LazyLoad>

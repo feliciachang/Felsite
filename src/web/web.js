@@ -94,7 +94,7 @@ class Web extends Component {
             date="2017-now"
             position="Cofounder"
             tools="ReactJS, Firebase, Google Analytics, AdobeXD"
-            graph1="Thinkspaces is a web platform that connects students to opportunities on university campuses. Driven by the mission to make collaboration easier between people, Thinkspaces centralizes both student led endeavors like startups, passion projects, and research along with paid on-campus jobs. We released our minimum viable product in October 2018 and our second prototype in January 2019, hosting more than 40 projects and 300+ monthly users. In the Spring of 2018, we entered Yale’s Spring Accelerator and won the Audience Choice Award at the final pitchoff."
+            graph1="Thinkspaces is a web platform that connects students to opportunities on university campuses. Driven by the mission to make collaboration easier between people, Thinkspaces centralizes both student led endeavors like startups, passion projects, and research. In the Spring of 2018, we entered Yale’s Spring Accelerator and won the Audience Choice Award at the final pitchoff."
             graph2=""
             graph3=""
             mainPhoto={<ThinkspacesPhoto />}

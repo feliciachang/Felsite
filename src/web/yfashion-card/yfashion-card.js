@@ -26,7 +26,7 @@ class YFashionCard extends Component {
           In my second iteration, I tried to depict the idea of ephemera through
           the layout of the letters. By dispersing the letters of ephemera
           throughout the page, I wanted to communicate the way in which ephemera
-          is often scattered.
+          is often scattered and fleeting.
         </p>
         <br />
         <div className="image-container">

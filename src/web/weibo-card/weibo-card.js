@@ -13,9 +13,7 @@ class WeiboCard extends Component {
         <br />
         <p style={{ marginLeft: "20%", marginRight: "20%" }}>
           I compiled a library of news feed card designs from five of Weibo's
-          competitors to help inform Weibo's card design decisions. The project
-          required immense attention to detail as I had to measure exact pixel
-          dimensions and ratios. An exerpt of the study may be viewed in the
+          competitors to help inform Weibo's card design decisions. An exerpt of the study may be viewed in the
           slideshow below.
         </p>
         <br />
@@ -51,13 +49,10 @@ class WeiboCard extends Component {
           </h3>
           <br />
           <p>
-            Panda Keeper is an environmental awareness in-app minigame in which
-            your panda goes on adventures and collects different types of bamboo
-            species. While the panda travels, it also brings back postcards.
-            Pictured below are UI designs of the bamboo and postcard screens.
-            Designing the Panda Keeper UI was an incredibly enjoyale exxperience
-            becuase it was my first foray into UI designs that were intensely
-            illustration focused.
+            Panda Keeper is an environmental awareness in-app minigame.
+            Our goal with the minigame was to educate users of the environment through postcards that
+            that depicted different types of bamboo species the user's panda came across in its travels.
+            Thus, our postcards needed to be engaging for users to scroll through and read.
           </p>
           <br />
           <div className="image-container">
@@ -70,13 +65,8 @@ class WeiboCard extends Component {
           </h3>
           <br />
           <p>
-            Super Hashtag was a new app specially for trending topics on the
-            Weibo news section. I was tasked with designing Super Hashtag's app
-            icon. Originally, I iterated upon literal depictions of hashtags.
-            Then, stepping into a more abstract space, I tried to depict the
-            idea of virality while playing on the Weibo logo. The latter idea
-            gained attraction from senior UI designers and was one of the final
-            candidates to be considered.
+            Super Hashtag was a new app for trending topics from the Weibo app.
+            When designing the icon, I was thinking about how to best depict virality while staying close to the Weibo logo and color palette.
           </p>
           <br />
           <div className="image-container">
