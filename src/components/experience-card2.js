@@ -29,8 +29,6 @@ class ExperienceCard2 extends Component {
       <div
         style={{
           justifyContent: "space-between",
-          backgroundColor: "#1A1A1A",
-          color: "white",
           paddingTop: 20,
           paddingBottom: 20
         }}
@@ -78,6 +76,8 @@ class ExperienceCard2 extends Component {
               {graph3}
             </div>
             {graphics}
+            <br/>
+            <br/>
           </div>
         ) : (
           <div />

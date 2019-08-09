@@ -29,7 +29,6 @@ class App extends Component {
         <AboutMe />
         <hr style={{ marginRight: 40, marginLeft: 40 }} />
         <Web />
-        <hr style={{ marginRight: 40, marginLeft: 40 }} />
         <PersonalWork />
       </div>
     );

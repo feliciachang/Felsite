@@ -147,7 +147,7 @@ class ThinkspacesCard extends Component {
         <br/>
         <br/>
         <h3 style={{ textAlign: "center", paddingTop: 50 }}>Version 2</h3>
-        <br />t
+        <br />
         <div
           style={{
             marginRight: "20%",
@@ -161,10 +161,10 @@ class ThinkspacesCard extends Component {
             showArrows={false}
           >
             <div>
-              <img src="https://felswebsite.s3.amazonaws.com/TV2+%E2%80%93+22+2.png" />
+              <img src="https://felswebsite.s3.amazonaws.com/Think1.png" />
             </div>
             <div>
-              <img src="https://felswebsite.s3.amazonaws.com/TV2+%E2%80%93+4+2.png" />
+              <img src="https://felswebsite.s3.amazonaws.com/Think2.png" />
             </div>
             <div>
               <img src="https://felswebsite.s3.amazonaws.com/TV2+%E2%80%93+1+2.png" />

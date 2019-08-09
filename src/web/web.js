@@ -28,7 +28,7 @@ class ConservifyPhoto extends Component {
   render() {
     return (
       <div className="image-container">
-        <img src="https://felswebsite.s3.amazonaws.com/fieldkit3.png" />
+        <img src="https://felswebsite.s3.amazonaws.com/FieldKitStar.png" />
       </div>
     );
   }
@@ -38,7 +38,7 @@ class SamsaraPhoto extends Component {
   render() {
     return (
       <div className="image-container">
-        <img src="https://felswebsite.s3.amazonaws.com/samsaracentered.png" />
+        <img src="https://felswebsite.s3.amazonaws.com/SamsaraHome%402x.png" />
       </div>
     );
   }
@@ -47,7 +47,7 @@ class YFashionPhoto extends Component {
   render() {
     return (
       <div className="image-container">
-        <img src="https://felswebsite.s3.amazonaws.com/yfashcover.png" />
+        <img src="https://felswebsite.s3.amazonaws.com/YCoverStar.png" />
       </div>
     );
   }
@@ -57,7 +57,7 @@ class WeiboPhoto extends Component {
   render() {
     return (
       <div className="image-container">
-        <img src="https://felswebsite.s3.amazonaws.com/weibo.png" />
+        <img src="https://felswebsite.s3.amazonaws.com/WeiboStar.png" />
       </div>
     );
   }
@@ -117,9 +117,9 @@ class Web extends Component {
             date="2018-2019"
             position="Intern: UI/UX + Frontend Engineering"
             tools="React Native, Redux, Jest, Enzyme, Mapbox API, AdobeXD"
-            graph1="Conservify is a nonprofit startup that develops open-source sensor and communication modules with a compatible mobile app and website, used for conservation research by multiple groups including National Geographic. "
-            graph2="At Conservify, I contributed to the FieldKit mobile app, which allows users to interface with their FieldKit device, a sensor module composed of many different environmental sensors. Given my background in design, I was able to design prototypes in Adobe XD and build the frontend functionality. For UX, I pitched a redesign of the central app navigation, building a custom tab navigation component. I also participated in meetings on user experience to help develop user personas, build user journeys, and plan features. "
-            graph3="Outside of making functionality changes, I also built new features and corresponding automated tests with Jest and Enzyme. One feature gave users greater customizability over their FieldKit devices by allowing them to change the name of their device through their phone, using Async Storage and an API call to the FieldKit device. Another feature let users visualize their data on a map, using the MapBox API."
+            graph1="Conservify is a nonprofit startup that develops open-source sensor and communication modules with a compatible mobile app and website, used for conservation research by multiple groups including National Geographic. While building the frontend functionality of the mobile app, I took the initiative to propose a complete redesign and infrastracture changes for more intuitive navigation."
+            graph2=""
+            graph3=""
             mainPhoto={<ConservifyPhoto />}
             graphics={<ConservifyCard />}
           />

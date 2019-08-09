@@ -15,7 +15,7 @@ class InternetChildPhoto extends Component {
   render() {
     return (
       <div className="image-container">
-        <img src="https://felswebsite.s3.amazonaws.com/InternetChild_0864.JPG" />
+        <img src="https://felswebsite.s3.amazonaws.com/InternetChildStar.png" />
       </div>
     );
   }
@@ -25,7 +25,7 @@ class PlayPhoto extends Component {
   render() {
     return (
       <div className="image-container">
-        <img src="https://felswebsite.s3.amazonaws.com/play1.JPG" />
+        <img src="https://felswebsite.s3.amazonaws.com/PlayStar.png" />
       </div>
     );
   }
@@ -44,7 +44,7 @@ class WaterGraphic extends Component {
   render() {
     return (
       <div className="image-container">
-        <img src="https://felswebsite.s3.amazonaws.com/water1.png" />
+        <img src="https://felswebsite.s3.amazonaws.com/WaterStar.png" />
       </div>
     );
   }
@@ -87,15 +87,6 @@ class PersonalWork extends Component {
             graph1="An exercise on preserving the essence of play, something that I believe disapates as we move into adulthood."
             mainPhoto={<PlayPhoto />}
             graphics={<PlayCard />}
-          />
-          <br />
-          <ExperienceCard2
-            name="Graphic Design - Yale"
-            date="2018"
-            tools="Adobe Suite"
-            graph1="A collection of projects from graphic design courses at Yale."
-            mainPhoto={<IntroGraphic />}
-            graphics={<GraphicCard />}
           />
         </div>
         <br />
