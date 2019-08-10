@@ -93,7 +93,7 @@ class ConservifyCard extends Component {
           </div>
           </Col>
           </Row>
-<br/>
+          <br/>
           <Row>
 
           <Col>

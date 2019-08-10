@@ -64,7 +64,7 @@ class SamsaraCard extends Component {
           <br />
           <p>Which led to our final logo:</p>
           <div className="logo-container">
-            <img src="https://felswebsite.s3.amazonaws.com/samsaracentered.png" />
+            <img src="https://felswebsite.s3.amazonaws.com/samsarablack.png" />
           </div>
           <br />
           <h3 style={{ textAlign: "center", paddingTop: 50 }}>
