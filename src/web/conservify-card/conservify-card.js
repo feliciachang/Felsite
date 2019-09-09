@@ -80,33 +80,16 @@ class ConservifyCard extends Component {
           <p style={{ marginLeft: "20%", marginRight: "20%" }}>
           4. Learn more about FieldKit
           </p>
-        <div style={{ marginLeft: "20%", marginRight: "20%" }}>
-          <Row>
-          <Col>
-          <div className = "circlelogo-container">
-          <img src="https://felswebsite.s3.amazonaws.com/FieldkitConnect.png" />
-          </div>
-          </Col>
-          <Col>
-          <div className = "circlelogo-container">
-          <img src="https://felswebsite.s3.amazonaws.com/FieldkitUpload.png" />
-          </div>
-          </Col>
-          </Row>
           <br/>
-          <Row>
-
-          <Col>
-          <div className = "circlelogo-container">
-          <img src="https://felswebsite.s3.amazonaws.com/FieldkitBrowser.png" />
-          </div>
-          </Col>
-            <Col>
-            <div className = "circlelogo-container">
-            <img src="https://felswebsite.s3.amazonaws.com/FieldkitAbout.png" />
-            </div>
-            </Col>
-          </Row>
+        <div
+          style={{
+            marginRight: "20%",
+            marginLeft: "20%",
+          }}
+        >
+        <video style={{width:"100%"}}controls src="https://felswebsite.s3.amazonaws.com/Fieldkit.webm" type="video/webm">
+            <p>Your browser does not support the video element.</p>
+        </video>
         </div>
       </div>
     );

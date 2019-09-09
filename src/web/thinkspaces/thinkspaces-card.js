@@ -150,26 +150,14 @@ class ThinkspacesCard extends Component {
         <br />
         <div
           style={{
-            marginRight: "20%",
-            marginLeft: "20%"
+              marginRight: "20%",
+              marginLeft: "20%"
+
           }}
         >
-          <Carousel
-            useKeyboardArrows={true}
-            showIndicators={false}
-            showStatus={false}
-            showArrows={false}
-          >
-            <div>
-              <img src="https://felswebsite.s3.amazonaws.com/Think1.png" />
-            </div>
-            <div>
-              <img src="https://felswebsite.s3.amazonaws.com/Think2.png" />
-            </div>
-            <div>
-              <img src="https://felswebsite.s3.amazonaws.com/TV2+%E2%80%93+1+2.png" />
-            </div>
-          </Carousel>
+        <video style={{width:"100%"}}controls src="https://felswebsite.s3.amazonaws.com/Thinkspacesbetter.webm" type="video/webm">
+            <p>Your browser does not support the video element.</p>
+        </video>
         </div>
         <br />
         <br />
