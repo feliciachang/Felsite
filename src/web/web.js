@@ -7,12 +7,23 @@ import SamsaraCard from "./samsara-card/samsara-card";
 import WeiboCard from "./weibo-card/weibo-card";
 import YFashionCard from "./yfashion-card/yfashion-card";
 import ExperienceCard2 from "../components/experience-card2";
+import SineQuaNonPage from "./sinequanon/sinequanon";
 import { Redirect } from "react-router-dom";
 import "./web.css";
 
 var bodyStyle = {
   margin: "80px"
 };
+
+class SineQuaNonPhoto extends Component {
+  render() {
+    return (
+      <div className="image-container">
+        <img src="https://felswebsite.s3.amazonaws.com/SineQuaNonDesktop.png" />
+      </div>
+    );
+  }
+}
 
 class ThinkspacesPhoto extends Component {
   render() {
@@ -99,6 +110,18 @@ class Web extends Component {
             graph3=""
             mainPhoto={<ThinkspacesPhoto />}
             graphics={<ThinkspacesCard />}
+          />
+          <br />
+          <ExperienceCard2
+            name="Sine Qua Non"
+            date="2019-now"
+            position="Creator"
+            tools="ReactJS, p5js"
+            graph1="Sine Qua Non is an interactive digital magazine meant to challenge the current information culture in which content is consumed passively. Through interactivity, Sine Qua Non hopes to make the reader part of the work itself."
+            graph2="I received funding from the College of Performing Arts grant to build out the first edition of the magazine. The first edition will be formally released in December. I am currently beta testing the website with a small pool of readers."
+            graph3=""
+            mainPhoto={<SineQuaNonPhoto />}
+            graphics={<SineQuaNonPage/>}
           />
           <br />
           <ExperienceCard2
