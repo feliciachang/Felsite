@@ -101,18 +101,6 @@ class Web extends Component {
           </h1>
           <br />
           <ExperienceCard2
-            name="Thinkspaces"
-            date="2017-now"
-            position="Cofounder"
-            tools="ReactJS, Firebase, Google Analytics, AdobeXD"
-            graph1="Thinkspaces is a web platform that connects students to opportunities on university campuses. Driven by the mission to make collaboration easier between people, Thinkspaces centralizes both student led endeavors like startups, passion projects, and research. In the Spring of 2018, we entered Yale’s Spring Accelerator and won the Audience Choice Award at the final pitchoff."
-            graph2=""
-            graph3=""
-            mainPhoto={<ThinkspacesPhoto />}
-            graphics={<ThinkspacesCard />}
-          />
-          <br />
-          <ExperienceCard2
             name="Sine Qua Non"
             date="2019-now"
             position="Creator"
@@ -122,6 +110,18 @@ class Web extends Component {
             graph3=""
             mainPhoto={<SineQuaNonPhoto />}
             graphics={<SineQuaNonPage/>}
+          />
+          <br />
+          <ExperienceCard2
+            name="Thinkspaces"
+            date="2017-now"
+            position="Cofounder"
+            tools="ReactJS, Firebase, Google Analytics, AdobeXD"
+            graph1="Thinkspaces is a web platform that connects students to opportunities on university campuses. Driven by the mission to make collaboration easier between people, Thinkspaces centralizes both student led endeavors like startups, passion projects, and research. In the Spring of 2018, we entered Yale’s Spring Accelerator and won the Audience Choice Award at the final pitchoff."
+            graph2=""
+            graph3=""
+            mainPhoto={<ThinkspacesPhoto />}
+            graphics={<ThinkspacesCard />}
           />
           <br />
           <ExperienceCard2

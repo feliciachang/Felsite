@@ -22,6 +22,15 @@ class SineQuaNonPage extends Component {
             >
               I intentionally chose colors that were more muted and natural paired with a serif font. In doing so, I wanted to evoke the intimate, yet nostalgic feeling of reading an aged book in which the pages are a little yellowed and discolored. The interactivity that complements each poem is meant to enhance the meaning of the poem in a visual way. It is both immersive yet minimal so as not to distract from the reading.
             </div>
+            <br/>
+            <div
+              style={{
+                marginRight: "20%",
+                marginLeft: "20%"
+              }}
+            >
+             You may experience the website at https://readsinequanon.com
+            </div>
           </div>
           <br/>
           <div
