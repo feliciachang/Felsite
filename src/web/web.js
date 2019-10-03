@@ -8,12 +8,14 @@ import WeiboCard from "./weibo-card/weibo-card";
 import YFashionCard from "./yfashion-card/yfashion-card";
 import ExperienceCard2 from "../components/experience-card2";
 import SineQuaNonPage from "./sinequanon/sinequanon";
+import Posters from "./Posters/poster";
 import { Redirect } from "react-router-dom";
 import "./web.css";
 
 var bodyStyle = {
   margin: "80px"
 };
+
 
 class SineQuaNonPhoto extends Component {
   render() {
@@ -171,14 +173,14 @@ class Web extends Component {
           />
           <br />
           <ExperienceCard2
-            name="Y Fashion House"
-            date="2017-2018"
-            position="Graphic Designer + Photographer"
-            tools="Illustrator"
-            graph1="Y Fashion House is a club at Yale that holds a biannual fashion show, showcasing designers across greater New York area.The 2018 winter show was called Ephemera."
-            graph2="I produced much of the marketing content used to promote the fashion show and model casting event. Working with multiple photographers, we conducted two independent photoshoots. I then used our photographs to design templates that were applied to the portraits of each model."
+            name="Poster Commissions"
+            date="2016-now"
+            position="Designer"
+            tools="AdobeXD, Illustrator, Lightroom"
+            graph1="Poster commisions for WE@yale, Y Fashion House, and Thinkspaces."
+            graph2=""
             mainPhoto={<YFashionPhoto />}
-            graphics={<YFashionCard />}
+            graphics={<Posters/>}
           />
         </div>
         <br />
