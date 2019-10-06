@@ -9,6 +9,7 @@ import YFashionCard from "./yfashion-card/yfashion-card";
 import ExperienceCard2 from "../components/experience-card2";
 import SineQuaNonPage from "./sinequanon/sinequanon";
 import Posters from "./Posters/poster";
+import LuxPage from "./luxetveritas/luxetveritas";
 import { Redirect } from "react-router-dom";
 import "./web.css";
 
@@ -85,6 +86,15 @@ class CameraTrapPhoto extends Component {
     );
   }
 }
+class LuxGraphic extends Component {
+  render() {
+    return (
+      <div className="image-container">
+        <img src="https://felswebsite.s3.amazonaws.com/luxphoto.png" />
+      </div>
+    );
+  }
+}
 
 //<a href="https://thinkspaces.org/"> thinkspaces.org/ </a>
 class Web extends Component {
@@ -103,7 +113,7 @@ class Web extends Component {
           </h1>
           <br />
           <ExperienceCard2
-            name="Sine Qua Non"
+            name="Sine Qua Non (in progress)"
             date="2019-now"
             position="Creator"
             tools="ReactJS, p5js"
@@ -112,6 +122,15 @@ class Web extends Component {
             graph3=""
             mainPhoto={<SineQuaNonPhoto />}
             graphics={<SineQuaNonPage/>}
+          />
+          <br />
+          <ExperienceCard2
+            name="Lux Et Veritas"
+            date="2019"
+            tools="Java - Processing, Raspberry Pi"
+            graph1="Lux et veritas is a generative art piece built for LCD installation at the Becton Center at Yale. As an environmental art piece that exists in a functional space, Lux et veritas seeks to engage, communicate, and exist with people. "
+            mainPhoto={<LuxGraphic/>}
+            graphics={<LuxPage />}
           />
           <br />
           <ExperienceCard2

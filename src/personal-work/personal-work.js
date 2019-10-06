@@ -42,16 +42,6 @@ class IntroGraphic extends Component {
   }
 }
 
-class LuxGraphic extends Component {
-  render() {
-    return (
-      <div className="image-container">
-        <img src="https://felswebsite.s3.amazonaws.com/luxphoto.png" />
-      </div>
-    );
-  }
-}
-
 class WaterGraphic extends Component {
   render() {
     return (
@@ -73,15 +63,6 @@ class PersonalWork extends Component {
             {" "}
             {"// Personal Work"}
           </h1>
-          <br />
-          <ExperienceCard2
-            name="Lux Et Veritas"
-            date="2019"
-            tools="Java - Processing, Raspberry Pi"
-            graph1="Lux et veritas is a generative art piece built for LCD installation at the Becton Center at Yale. As an environmental art piece that exists in a functional space, Lux et veritas seeks to engage, communicate, and exist with people. "
-            mainPhoto={<LuxGraphic/>}
-            graphics={<LuxPage />}
-          />
           <br />
           <ExperienceCard2
             name="Material Study - Water"
