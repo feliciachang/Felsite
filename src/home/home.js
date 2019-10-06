@@ -25,8 +25,15 @@ const TogglePhoto = show => {
 
 class AboutMe extends Component {
   state = {
-    compile: false
+    compile: false,
+    mobile: false
   };
+
+  componentDidMount() {
+    if (window.innerWidth < 600) {
+      this.setState({mobile: true})
+    }
+  }
 
   render() {
     console.log(this.state.compile);
@@ -91,7 +98,10 @@ class AboutMe extends Component {
                 <br />
               </p>
             </Col>
-            <Col>
+            { this.state.mobile ?
+              <div/>
+              :
+            (<Col>
               {this.state.compile ? (
                 <div className="image-container">
                   <img src="https://felswebsite.s3.amazonaws.com/IMG_2949.GIF" />
@@ -106,7 +116,8 @@ class AboutMe extends Component {
                   Compile Felicia
                 </div>
               )}
-            </Col>
+            </Col>)
+            }
           </Row>
         </div>
       </div>

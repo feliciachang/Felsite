@@ -12,9 +12,16 @@
 
 .image-container {
   background-color: "black";
-  max-height: 450px !important;
+  max-height: 250px !important;
   margin-top: 60px;
   margin-bottom: 40px;
+}
+
+@media screen and {max-width: 600px} {
+  image-container {
+    background-color: "black";
+    max-height: 450px !important;
+  }
 }
 
 .image-container img {
