@@ -14,47 +14,94 @@ var bodyStyle = {
 
 class InternetChildPhoto extends Component {
   render() {
-    return (
-      <div className="image-container">
-        <img src="https://felswebsite.s3.amazonaws.com/InternetChildStar.png" />
-      </div>
-    );
+    if(this.props.mobile) {
+      return (
+        <div className="image-container2">
+          <img src="https://felswebsite.s3.amazonaws.com/InternetChildStar.png" />
+        </div>
+      );
+    }
+    else {
+      return (
+        <div className="image-container">
+          <img src="https://felswebsite.s3.amazonaws.com/InternetChildStar.png" />
+        </div>
+      );
+    }
   }
 }
 
 class PlayPhoto extends Component {
   render() {
-    return (
-      <div className="image-container">
-        <img src="https://felswebsite.s3.amazonaws.com/PlayStar.png" />
-      </div>
-    );
+    if(this.props.mobile) {
+      return (
+        <div className="image-container2">
+          <img src="https://felswebsite.s3.amazonaws.com/PlayStar.png" />
+        </div>
+      );
+    }
+    else {
+      return (
+        <div className="image-container">
+          <img src="https://felswebsite.s3.amazonaws.com/PlayStar.png" />
+        </div>
+      );
+    }
   }
 }
 
 class IntroGraphic extends Component {
   render() {
-    return (
-      <div className="image-container">
-        <img src="https://felswebsite.s3.amazonaws.com/intrographic/unnamed.jpg" />
-      </div>
-    );
+    if(this.props.mobile) {
+      return (
+        <div className="image-container2">
+          <img src="https://felswebsite.s3.amazonaws.com/intrographic/unnamed.jpg" />
+        </div>
+      );
+    }
+    else {
+      return (
+        <div className="image-container">
+          <img src="https://felswebsite.s3.amazonaws.com/intrographic/unnamed.jpg" />
+        </div>
+      );
+    }
   }
 }
 
 class WaterGraphic extends Component {
   render() {
-    return (
-      <div className="image-container">
-        <img src="https://felswebsite.s3.amazonaws.com/WaterStar.png" />
-      </div>
-    );
+    if(this.props.mobile) {
+      return (
+        <div className="image-container2">
+          <img src="https://felswebsite.s3.amazonaws.com/WaterStar.png" />
+        </div>
+      );
+    }
+    else {
+      return (
+        <div className="image-container">
+          <img src="https://felswebsite.s3.amazonaws.com/WaterStar.png" />
+        </div>
+      );
+    }
   }
 }
 
 // https://felswebsite.s3.amazonaws.com/intrographic/unnamed.jpg
 //<a href="https://thinkspaces.org/"> thinkspaces.org/ </a>
 class PersonalWork extends Component {
+
+  state = {
+    mobile: false
+  }
+
+  componentDidMount () {
+    if(window.innerWidth < 600) {
+      this.setState({mobile: true})
+    }
+  }
+
   render() {
     return (
       <div>
@@ -69,7 +116,7 @@ class PersonalWork extends Component {
             date="2019-now"
             tools="Java - Processing"
             graph1="Photo manipulation of water. More to come.."
-            mainPhoto={<WaterGraphic/>}
+            mainPhoto={<WaterGraphic mobile= {this.state.mobile}/>}
             graphics={<WaterCard />}
           />
           <br />
@@ -78,7 +125,7 @@ class PersonalWork extends Component {
             date="2019-now"
             tools="Java - Processing"
             graph1="Conversations with my computer."
-            mainPhoto={<InternetChildPhoto />}
+            mainPhoto={<InternetChildPhoto mobile= {this.state.mobile}/>}
             graphics={<InternetCard />}
           />
           <br />
@@ -87,7 +134,7 @@ class PersonalWork extends Component {
             date="2019-now"
             tools="Adobe Draw"
             graph1="An exercise on preserving the essence of play, something that I believe disapates as we move into adulthood."
-            mainPhoto={<PlayPhoto />}
+            mainPhoto={<PlayPhoto mobile= {this.state.mobile}/>}
             graphics={<PlayCard />}
           />
         </div>

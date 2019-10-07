@@ -12,8 +12,14 @@
 
 .image-container {
   background-color: "black";
-  max-height: 450px !important;
   margin-top: 60px;
+  max-height: 450px !important;
+  margin-bottom: 40px;
+}
+.image-container2 {
+  background-color: "black";
+  margin-top: 60px;
+  max-height: 250px !important;
   margin-bottom: 40px;
 }
 
@@ -24,6 +30,16 @@
 
 .webCSS {
   margin: 40;
+}
+
+.image-container2 img {
+  max-width: 80%;
+  max-height: 100%;
+  width: auto;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .image-container img {
