@@ -49,7 +49,7 @@ class ThinkspacesCard extends Component {
           A Minimum Viable Product
         </h3>
         <br />
-        <p style={{ marginLeft: "20%", marginRight: "20%" }}>
+        <p className = "textCSS">
           In October 2018, my team and I built a scrappy MVP using React.
           Initially, we had no backend and had users submit projects using a
           Google Form. After receiving some signs of success, we built out the

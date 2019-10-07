@@ -58,7 +58,7 @@ class PersonalWork extends Component {
   render() {
     return (
       <div>
-        <div style={{ margin: 40 }}>
+        <div className= "webCSS">
           <h1 style={{ color: "#ff6e6e", fontWeight: "bold" }}>
             {" "}
             {"// Personal Work"}

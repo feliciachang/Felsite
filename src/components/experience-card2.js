@@ -115,11 +115,10 @@ class ExperienceCard2 extends Component {
           </div>
           </div>
         </div>
+        <br/>
         {this.state.photoDisplay ? (
           <div>
-            <div
-              style={{ marginRight: "20%", marginLeft: "20%", marginTop: 40 }}
-            >
+            <div style = {{marginLeft: 10, marginRight: 10}}>
               Tools: {tools}
               <br />
               <br />
@@ -178,9 +177,7 @@ class ExperienceCard2 extends Component {
           </Row>
           {this.state.photoDisplay ? (
             <div>
-              <div
-                style={{ marginRight: "20%", marginLeft: "20%", marginTop: 40 }}
-              >
+              <div style = {{marginLeft: "20%", marginRight: "20%", paddingTop: 40}} >
                 Tools: {tools}
                 <br />
                 <br />
