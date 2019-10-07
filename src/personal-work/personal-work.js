@@ -59,7 +59,7 @@ class PersonalWork extends Component {
     return (
       <div>
         <div className= "webCSS">
-          <h1 style={{ color: "#ff6e6e", fontWeight: "bold" }}>
+          <h1 style={{ paddingTop: 40, paddingLeft: 40, color: "#ff6e6e", fontWeight: "bold" }}>
             {" "}
             {"// Personal Work"}
           </h1>

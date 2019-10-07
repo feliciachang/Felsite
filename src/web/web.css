@@ -17,35 +17,13 @@
   margin-bottom: 40px;
 }
 
-
-
 .textCSS {
   margin-left: 20%;
   margin-right: 20%
 }
-@media screen and {max-width: 600px} {
-  textCSS {
-    margin: 10;
-  }
-}
-
 
 .webCSS {
   margin: 40;
-}
-
-@media screen and {max-width: 600px} {
-  webCSS {
-    margin: 5;
-  }
-}
-
-
-@media screen and {max-width: 600px} {
-  image-container {
-    background-color: "black";
-    max-height: 450px !important;
-  }
 }
 
 .image-container img {
@@ -89,4 +67,17 @@
   display: block;
   margin-left: auto;
   margin-right: auto;
+}
+
+
+@media screen and {max-width: 600px} {
+  textCSS {
+    margin: 10;
+  }
+}
+@media screen and {max-width: 600px} {
+  image-container {
+    background-color: "black";
+    max-height: 150px !important;
+  }
 }

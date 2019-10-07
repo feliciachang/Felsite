@@ -79,6 +79,7 @@ class ExperienceCard2 extends Component {
     }
   }
 
+
   render() {
     const {
       name,

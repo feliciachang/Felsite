@@ -38,7 +38,7 @@ class AboutMe extends Component {
   render() {
     console.log(this.state.compile);
     return (
-      <div className="webCSS">
+      <div style = {{margin: 40}}>
         <h1 style={{ color: "#ff6e6e", fontWeight: "bold", fontSize: 50 }}>
           {"// Felicia Chang "}
         </h1>
