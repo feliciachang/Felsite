@@ -58,12 +58,12 @@ class SineQuaNonPage extends Component {
             >
               I was very unsure whether I could actually create an interactive magazine simply due to the technical challenge of using p5js, a processing heavy graphics library, for a website. There were many designs that I created that too so much RAM that I thought my computer would pass out. Here is the process for my first iteration, which was a very simple ellipse-square pairing along with a short piece of prose I wrote.
             </div>
-            <div className="poster-container">
+            <div className="image-container">
               <LazyLoad>
                 <img src="https://felswebsite.s3.amazonaws.com/blueberry2.png" />
               </LazyLoad>
             </div>
-            <div className="poster-container">
+            <div className="image-container">
               <LazyLoad>
                 <img src="https://felswebsite.s3.amazonaws.com/blueberry3.png" />
               </LazyLoad>
@@ -83,10 +83,8 @@ class SineQuaNonPage extends Component {
           >
             I kept the logo very similar to the design of the home page to maintain uniformity. The logo is intentionally not very flashy but rather is supposed to simply celebrate the beauty of serif typography, something we see less and less in logo design.
           </div>
-          <div className="poster-container">
-            <LazyLoad>
+          <div className="image-container">
               <img src="https://felswebsite.s3.amazonaws.com/sinequanonlogo.png" />
-            </LazyLoad>
           </div>
         </div>
     );

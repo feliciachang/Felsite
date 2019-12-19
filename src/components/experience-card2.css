@@ -5,3 +5,30 @@
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
 }
+
+/* relevant styles */
+.img__wrap {
+  position: relative;
+  height: 200px;
+  width: 257px;
+}
+
+.image_des {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #fff;
+  color: #000000;
+  visibility: hidden;
+  opacity: 1;
+
+  /* transition effect. not necessary */
+  transition: opacity 1s, visibility .2s;
+}
+
+.img__wrap:hover .img__description {
+  visibility: visible;
+  opacity: 1;
+}

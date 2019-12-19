@@ -55,7 +55,7 @@ class WeiboCard extends Component {
             Thus, our postcards needed to be engaging for users to scroll through and read.
           </p>
           <br />
-          <div className="image-container">
+          <div className="image-container3">
             <img src="https://felswebsite.s3.amazonaws.com/PandaKeeperCards+%E2%80%93+1.png" />
           </div>
           <br />
@@ -69,7 +69,7 @@ class WeiboCard extends Component {
             When designing the icon, I was thinking about how to best depict virality while staying close to the Weibo logo and color palette.
           </p>
           <br />
-          <div className="image-container">
+          <div className="image-container3">
             <img src="https://felswebsite.s3.amazonaws.com/Web+1920+%E2%80%93+1.png" />
           </div>
           <br />

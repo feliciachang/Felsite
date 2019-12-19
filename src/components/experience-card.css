@@ -13,6 +13,21 @@
   margin-right: auto;
 }
 
+.image_des {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #ffffff;
+  color: #fff;
+  visibility: hidden;
+  opacity: 0;
+
+  /* transition effect. not necessary */
+  transition: opacity .2s, visibility .2s;
+}
+
 .expand-button {
   width: 120px;
   border-style: solid;

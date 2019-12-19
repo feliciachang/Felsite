@@ -1,14 +1,15 @@
 import React, { Component } from "react";
+import { BrowserRouter as Router, Switch, Route, Link} from 'react-router-dom';
+import {Navbar, NavbarBrand} from "reactstrap";
 import "./App.css";
 import "./index.css";
 
-import AboutMe from "./home/home";
+import AboutMe2 from "./home/home2";
 import Web from "./web/web";
-import Art from "./art/art";
-import Experience from "./experience/experience";
-import Education from "./education/education";
-import Contents from "./contents/contents";
-import PersonalWork from "./personal-work/personal-work";
+import ThinkspacesCard from "./web/thinkspaces/thinkspaces-card";
+import ConservifyCard from "./web/conservify-card/conservify-card";
+import WeiboCard from "./web/weibo-card/weibo-card";
+import SineQuaNonPage from "./web/sinequanon/sinequanon";
 
 var divStyle = {
   margin: "50px"
@@ -20,16 +21,28 @@ var bodyStyle = {
 class App extends Component {
   render() {
     return (
-      <div>
+      <div style = {{marginLeft: "5%", marginRight:"5%"}}>
         <link href="https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap" />
         <link
           href="https://fonts.googleapis.com/css?family=Amiri|Goudy+Bookletter+1911&display=swap"
           rel="stylesheet"
         />
-        <AboutMe />
-        <hr style={{ marginRight: 40, marginLeft: 40 }} />
-        <Web />
-        <PersonalWork />
+        <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet"/>
+        <link href="https://fonts.googleapis.com/css?family=Noto+Sans&display=swap" rel="stylesheet"/>
+        <link href="https://fonts.googleapis.com/css?family=Noto+Sans|Open+Sans&display=swap" rel="stylesheet"/>
+        <link href="https://fonts.googleapis.com/css?family=Work+Sans&display=swap" rel="stylesheet"/>
+        <div style={{margin: "0%"}}> </div>
+        <Navbar>
+          <NavbarBrand href="/" style={{fontSize: 40, color: "#ff6e6e"}}>{"//"}
+          </NavbarBrand>
+        </Navbar>
+        <Router>
+          <Route path="/" exact component={Web}/>
+          <Route path="/thinkspaces" exact component={ThinkspacesCard}/>
+          <Route path="/conservify" exact component={ConservifyCard}/>
+          <Route path="/weibo" exact component={WeiboCard}/>
+          <Route path="/sinequanon" exact component={SineQuaNonPage}/>
+        </Router>
       </div>
     );
   }

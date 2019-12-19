@@ -45,6 +45,14 @@ class ThinkspacesCard extends Component {
   render() {
     return (
       <div>
+        <Row>
+        <Col>
+        <h2 style={{ textAlign: "center", paddingTop: 50 }}>Thinkspaces</h2>
+        </Col>
+        <Col>
+        <p style={{  paddingTop: 50 }}>Connectings students to projects</p>
+        </Col>
+        </Row>
         <h3 style={{ textAlign: "center", paddingTop: 50 }}>
           A Minimum Viable Product
         </h3>
