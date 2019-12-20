@@ -44,7 +44,7 @@ class AboutMe2 extends Component {
     console.log(this.state.compile);
     return (
       <div>
-        <h1 style={{color: "#ff6e6e", fontSize:50}}>Hey there! Felicia here
+        <h1 style={{color: "#ff6e6e", fontSize:50}}>Hey there! Felicia here.
         </h1>
         <h2 style={{lineHeight: 1.5, fontWeight: 300}}>I'm a product designer exploring the future of computing through pixels and code.
         </h2>

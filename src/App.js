@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { BrowserRouter as Router, Switch, Route, Link} from 'react-router-dom';
-import {Navbar, NavbarBrand} from "reactstrap";
+import {Navbar, NavbarBrand, Nav, NavItem, NavLink} from "reactstrap";
 import "./App.css";
 import "./index.css";
 
@@ -35,6 +35,14 @@ class App extends Component {
         <Navbar>
           <NavbarBrand href="/" style={{fontSize: 40, color: "#ff6e6e"}}>{"//"}
           </NavbarBrand>
+          <Nav>
+          <NavItem>
+          <NavLink style={{ color: "#ff6e6e"}}>WORK</NavLink>
+          </NavItem>
+            <NavItem>
+            <NavLink style={{ color: "#ff6e6e"}} href="https://felswebsite.s3.amazonaws.com/FeliciaChangCV.pdf">CV</NavLink>
+            </NavItem>
+          </Nav>
         </Navbar>
         <Router>
           <Route path="/" exact component={Web}/>

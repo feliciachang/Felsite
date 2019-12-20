@@ -7,7 +7,33 @@ class WeiboCard extends Component {
   render() {
     return (
       <div>
-        <h3 style={{ textAlign: "center", paddingTop: 50 }}>
+      <div style={{margin: "2%"}}>
+      <div >
+        <Row>
+        <Col xs="4">
+          <img style={{height: "100px"}}src="https://upload.wikimedia.org/wikipedia/en/thumb/6/6e/Sina_Weibo.svg/1200px-Sina_Weibo.svg.png" />
+        </Col>
+        </Row>
+      </div>
+      <div style={{paddingTop: "2%"}}>
+        <Row>
+        <Col xs="4">
+        <div>
+        <h1 >Sina Weibo.</h1>
+        <p/>
+        <p>2018 Summer</p>
+        <p>UI Design Intern</p>
+        </div>
+        </Col>
+        <Col>
+        <div>
+        <p>Thinkspaces is a web platform that connects students to opportunities on university campuses. Driven by the mission to make collaboration easier between people, Thinkspaces centralizes both student led endeavors like startups, passion projects, and research. In the Spring of 2018, we entered Yale’s Spring Accelerator and won the Audience Choice Award at the final pitchoff.</p>
+        </div>
+        </Col>
+        </Row>
+      </div>
+      <hr/>
+        <h3 style={{ textAlign: "center", marginTop: "10%"}}>
           Project 1: Card Design Competitive Analysis
         </h3>
         <br />
@@ -74,6 +100,7 @@ class WeiboCard extends Component {
           </div>
           <br />
         </div>
+      </div>
       </div>
     );
   }

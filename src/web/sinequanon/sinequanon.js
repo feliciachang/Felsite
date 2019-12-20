@@ -7,8 +7,38 @@ class SineQuaNonPage extends Component {
   render() {
     return (
       <div>
-        <br/>
-          <div>
+      <div style={{margin: "2%"}}>
+      <div >
+        <Row>
+        <Col xs="4">
+        <LazyLoad>
+          <img style={{height: "100px"}}src="https://felswebsite.s3.amazonaws.com/sinequanonlogo.png" />
+        </LazyLoad>
+        </Col>
+        </Row>
+      </div>
+      <div style={{paddingTop: "2%"}}>
+        <Row>
+        <Col xs="4">
+        <div>
+        <h1 >Sine Qua Non.</h1>
+        <p/>
+        <p>2019</p>
+        <p>Founder</p>
+        </div>
+        </Col>
+        <Col>
+        <div>
+        <p>Sine Qua Non is an interactive digital magazine meant to challenge the current information culture in which content is consumed passively. Through interactivity, Sine Qua Non hopes to make the reader part of the work itself.</p>
+        <p>
+        I received funding from the College of Performing Arts grant to build out the first edition of the magazine. The first edition will be formally released in December. I am currently beta testing the website with a small pool of readers.
+        </p>
+        </div>
+        </Col>
+        </Row>
+      </div>
+      <hr/>
+          <div style = {{marginTop: "10%"}}>
             <div style={{ textAlign: "center" }}>
             <h3>Design Concept
             </h3>
@@ -86,6 +116,7 @@ class SineQuaNonPage extends Component {
           <div className="image-container">
               <img src="https://felswebsite.s3.amazonaws.com/sinequanonlogo.png" />
           </div>
+        </div>
         </div>
     );
   }

@@ -45,15 +45,36 @@ class ThinkspacesCard extends Component {
   render() {
     return (
       <div>
+      <div style={{margin: "2%"}}>
+      <div >
         <Row>
-        <Col>
-        <h2 style={{ textAlign: "center", paddingTop: 50 }}>Thinkspaces</h2>
-        </Col>
-        <Col>
-        <p style={{  paddingTop: 50 }}>Connectings students to projects</p>
+        <Col xs="4">
+        <LazyLoad>
+          <img style={{height: "100px"}}src="https://felswebsite.s3.amazonaws.com/thinkspacescircle.png" />
+        </LazyLoad>
         </Col>
         </Row>
-        <h3 style={{ textAlign: "center", paddingTop: 50 }}>
+      </div>
+      <div style={{paddingTop: "2%"}}>
+        <Row>
+        <Col xs="4">
+        <div>
+        <h1 >Thinkspaces.</h1>
+        <p/>
+        <p>2017-2019</p>
+        <p>Cofounder</p>
+        </div>
+        </Col>
+        <Col>
+        <div>
+        <p>Thinkspaces is a web platform that connects students to opportunities on university campuses. Driven by the mission to make collaboration easier between people, Thinkspaces centralizes both student led endeavors like startups, passion projects, and research. In the Spring of 2018, we entered Yale’s Spring Accelerator and won the Audience Choice Award at the final pitchoff.</p>
+        </div>
+        </Col>
+        </Row>
+      </div>
+      <hr/>
+      </div>
+        <h3 style={{ textAlign: "center", marginTop: "10%"}}>
           A Minimum Viable Product
         </h3>
         <br />

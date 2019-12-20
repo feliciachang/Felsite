@@ -15,11 +15,6 @@ class ExperienceCard2 extends Component {
       this.setState({mobile: true})
     }
   }
-  componentDidUpdate() {
-    if(window.innerWidth < 600) {
-      this.setState({mobile: true})
-    }
-  }
 
   redirectToProject = () => {
     console.log("pressed");

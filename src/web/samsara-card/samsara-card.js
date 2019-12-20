@@ -10,10 +10,37 @@ class SamsaraCard extends Component {
   render() {
     return (
       <div>
+      <div style={{margin: "3%"}}>
+      <div >
+        <Row>
+        <Col xs="4">
+          <img style={{height: "100px"}}src="https://pbs.twimg.com/profile_images/582575092472774656/AVKatWP-_400x400.jpg"/>
+        </Col>
+        </Row>
+      </div>
+      <div style={{paddingTop: "2%"}}>
+        <Row>
+        <Col xs="4">
+        <div>
+        <h1 >Samsara.</h1>
+        <p/>
+        <p>2019</p>
+        <p>Founder</p>
+        </div>
+        </Col>
+        <Col>
+        <div>
+        <p>Thinkspaces is a web platform that connects students to opportunities on university campuses. Driven by the mission to make collaboration easier between people, Thinkspaces centralizes both student led endeavors like startups, passion projects, and research. In the Spring of 2018, we entered Yale’s Spring Accelerator and won the Audience Choice Award at the final pitchoff.</p>
+        </div>
+        </Col>
+        </Row>
+      </div>
+      <hr/>
         <div
           style={{
             marginRight: "20%",
-            marginLeft: "20%"
+            marginLeft: "20%",
+            marginTop: "10%"
           }}
         >
           <h3 style={{ textAlign: "center", paddingTop: 50 }}> Web Design </h3>
@@ -96,6 +123,7 @@ class SamsaraCard extends Component {
           </div>
         <br />
         <br />
+      </div>
       </div>
     );
   }

@@ -8,8 +8,34 @@ class ConservifyCard extends Component {
   render() {
     return (
       <div>
-      <br/>
-      <h3 style={{ textAlign: "center" }}>The Problem with the Original UI/UX</h3>
+      <div style={{margin: "2%"}}>
+      <div >
+        <Row>
+        <Col xs="4">
+          <img style={{height: "100px"}}src="https://pbs.twimg.com/profile_images/582575092472774656/AVKatWP-_400x400.jpg"/>
+        </Col>
+        </Row>
+      </div>
+      <div style={{paddingTop: "2%"}}>
+        <Row>
+        <Col xs="4">
+        <div>
+        <h1 >Conservify.</h1>
+        <p/>
+        <p>2017-2019</p>
+        <p>UX Engineer Intern</p>
+        </div>
+        </Col>
+        <Col>
+        <div>
+        <p>Conservify is a nonprofit startup that develops open-source sensor and communication modules with a compatible mobile app and website, used for conservation research by multiple groups including National Geographic. </p>
+        <p>While building the frontend functionality of the mobile app, I took the initiative to propose a complete redesign and infrastracture changes for more intuitive navigation.</p>
+        </div>
+        </Col>
+        </Row>
+      </div>
+      <hr/>
+      <h3 style={{ textAlign: "center", marginTop: "10%" }}>The Problem with the Original UI/UX</h3>
       <p style={{ marginLeft: "20%", marginRight: "20%" }}>
       Rather than having a navigation bar, the app only had a button called "Advanced Options" that then took the user to a row of buttons. This was extremely inefficient and led the developer to pile all functionality into "Easy Transfer." As a result, the app had no modularity and gave users a confusing experience.
       </p>
@@ -91,6 +117,7 @@ class ConservifyCard extends Component {
             <p>Your browser does not support the video element.</p>
         </video>
         </div>
+      </div>
       </div>
     );
   }
