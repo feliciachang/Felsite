@@ -39,13 +39,10 @@ class AboutMe extends Component {
     console.log(this.state.compile);
     return (
       <div style = {{margin: 40}}>
-        <h1 style={{ color: "#ff6e6e", fontWeight: "bold", fontSize: 50 }}>
-          {"// Felicia Chang "}
-        </h1>
         <div style={divStyle}>
           <Row>
             <Col>
-              <p style={{ paddingTop: 60 }}>
+              <p style={{ paddingTop: 60, fontFamily: "Roboto Mono"}}>
                 {"int main (About me) {"}
                 <br />
                 &emsp; {"while ( Felicia is at Yale University ) {"}
@@ -112,6 +109,7 @@ class AboutMe extends Component {
                   onClick={() => {
                     this.setState({ compile: !this.state.compile });
                   }}
+                  style={{fontFamily: "Roboto Mono"}}
                 >
                   Compile Felicia
                 </div>
