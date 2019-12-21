@@ -91,14 +91,6 @@ var bodyStyle = {
 
 class SineQuaNonPhoto extends Component {
   render() {
-    if(this.props.mobile) {
-      return (
-        <div className="container">
-          <img class="image" src="https://felswebsite.s3.amazonaws.com/SineQuaNonDesktop.png" />
-        </div>
-      );
-    }
-    else {
       return (
         <div className="container">
           <img className="image" src="https://felswebsite.s3.amazonaws.com/SineQuaNonDesktop.png" />
@@ -108,20 +100,11 @@ class SineQuaNonPhoto extends Component {
           </div>
         </div>
       );
-    }
   }
 }
 
 class ThinkspacesPhoto extends Component {
   render() {
-    if(this.props.mobile) {
-      return (
-        <div className="image-container2">
-          <img src="https://felswebsite.s3.amazonaws.com/ThinkspacesHome.png" />
-        </div>
-      );
-    }
-    else {
       return (
         <div className="container">
           <img className="image" src="https://felswebsite.s3.amazonaws.com/ThinkspacesHome.png" />
@@ -131,20 +114,11 @@ class ThinkspacesPhoto extends Component {
           </div>
         </div>
       );
-    }
   }
 }
 
 class ConservifyPhoto extends Component {
   render() {
-    if(this.props.mobile) {
-      return (
-        <div className="image-container2">
-          <img src="https://felswebsite.s3.amazonaws.com/FieldKitStar.png" />
-        </div>
-      );
-    }
-    else {
       return (
         <div className="container">
           <img className="image" src="https://felswebsite.s3.amazonaws.com/FieldKitStar.png" />
@@ -154,20 +128,11 @@ class ConservifyPhoto extends Component {
           </div>
         </div>
       );
-    }
   }
 }
 
 class SamsaraPhoto extends Component {
   render() {
-    if(this.props.mobile) {
-      return (
-        <div className="image-container2">
-          <img src="https://felswebsite.s3.amazonaws.com/SamsaraHome%402x.png" />
-        </div>
-      );
-    }
-    else {
       return (
         <div className="container">
           <img className="image" src="https://felswebsite.s3.amazonaws.com/SamsaraHome%402x.png" />
@@ -176,7 +141,6 @@ class SamsaraPhoto extends Component {
           </div>
         </div>
       );
-    }
   }
 }
 class YFashionPhoto extends Component {
@@ -200,14 +164,6 @@ class YFashionPhoto extends Component {
 
 class WeiboPhoto extends Component {
   render() {
-    if(this.props.mobile) {
-      return (
-        <div className="image-container2">
-          <img src="https://felswebsite.s3.amazonaws.com/WeiboStar.png" />
-        </div>
-      );
-    }
-    else {
       return (
         <div className="container">
           <img className="image" src="https://felswebsite.s3.amazonaws.com/WeiboStar.png" />
@@ -217,7 +173,6 @@ class WeiboPhoto extends Component {
           </div>
         </div>
       );
-    }
   }
 }
 
@@ -287,8 +242,8 @@ class Web extends Component {
           <AboutMe2 />
           </div>
           <div style={{margin: "15%"}}> </div>
-          <Row>
-          <Col>
+          <Row xs="2">
+          <Col xs = "auto" lg = "6">
           <ExperienceCard2
             name="Thinkspaces"
             url="/thinkspaces"
@@ -302,7 +257,7 @@ class Web extends Component {
             graphics={<ThinkspacesCard />}
           />
           </Col>
-          <Col>
+          <Col xs = "auto" lg = "6">
           <ExperienceCard2
             name="Conservify: FieldKit Mobile App"
             url="/conservify"
@@ -318,8 +273,8 @@ class Web extends Component {
           </Col>
           </Row>
           <br/>
-          <Row>
-          <Col>
+          <Row xs="2">
+          <Col xs = "auto" lg = "6">
           <ExperienceCard2
             name="Weibo"
             url="/weibo"
@@ -333,7 +288,7 @@ class Web extends Component {
             graphics={<WeiboCard />}
           />
           </Col>
-          <Col>
+          <Col xs = "auto" lg = "6">
           <ExperienceCard2
             name="Sine Qua Non (in progress)"
             url="/sinequanon"

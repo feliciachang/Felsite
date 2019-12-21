@@ -45,6 +45,7 @@
   height: auto;
   transition: .3s ease;
   backface-visibility: hidden;
+  margin-bottom: 10%;
 }
 .container:hover .image {
   opacity: 0.2;
