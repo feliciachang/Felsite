@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { BrowserRouter as Router, Switch, Route, Link} from 'react-router-dom';
+import { NavLink as RRNavLink } from 'react-router-dom';
 import {Navbar, NavbarBrand, Nav, NavItem, NavLink} from "reactstrap";
 
 class NavbarComp extends Component {
@@ -9,7 +9,7 @@ class NavbarComp extends Component {
         <NavbarBrand href="/" style={{fontSize: 40, color: "#ff6e6e"}}>{"//"}
         </NavbarBrand>
         <Nav>
-        <NavItem>
+        <NavItem active={window.location.pathname === "/aboutme"}>
         <NavLink style={{ color: "#ff6e6e", fontSize: 16}} href="/aboutme">ABOUT</NavLink>
         </NavItem>
           <NavItem>
