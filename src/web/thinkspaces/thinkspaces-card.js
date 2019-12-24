@@ -5,224 +5,100 @@ import "./thinkspaces-card.css";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from "react-responsive-carousel";
 import LazyLoad from "react-lazyload";
-
-// <div
-//   style={{
-//     marginTop: "5%",
-//     display: "flex",
-//     flexDirection: "row",
-//     alignItems: "center",
-//     justifyContent: "center"
-//   }}
-// >
-//   <div>
-//     <div style={{ textAlign: "center" }}>Project Page</div>
-//     <div className="image-container">
-//       <LazyLoad>
-//         <img src="https://felswebsite.s3.amazonaws.com/Web+1920+%E2%80%93+1.png" />
-//       </LazyLoad>
-//     </div>
-//   </div>
-//   <div>
-//     <div style={{ textAlign: "center" }}>Home</div>
-//     <div className="image-container">
-//       <LazyLoad>
-//         <img src="https://felswebsite.s3.amazonaws.com/Web+1920+%E2%80%93+22.png" />
-//       </LazyLoad>
-//     </div>
-//   </div>
-//   <div>
-//     <div style={{ textAlign: "center" }}>Explore</div>
-//     <div className="image-container">
-//       <LazyLoad>
-//         <img src="https://felswebsite.s3.amazonaws.com/Web+1920+%E2%80%93+4.png" />
-//       </LazyLoad>
-//     </div>
-//   </div>
-// </div>
+import BlogComponent from "../BlogComponent";
+import HeaderComponent from "../HeaderComponent";
 
 class ThinkspacesCard extends Component {
   render() {
     return (
-      <div>
-      <div style={{margin: "2%"}}>
-      <div >
-        <Row>
-        <Col xs="4">
-        <LazyLoad>
-          <img style={{height: "100px"}}src="https://felswebsite.s3.amazonaws.com/thinkspacescircle.png" />
-        </LazyLoad>
-        </Col>
-        </Row>
-      </div>
-      <div style={{paddingTop: "2%"}}>
-        <Row>
-        <Col xs="4">
-        <div>
-        <h1 >Thinkspaces.</h1>
-        <p/>
-        <p>2017-2019</p>
-        <p>Cofounder</p>
-        </div>
-        </Col>
-        <Col>
-        <div>
-        <p>Thinkspaces is a web platform that connects students to opportunities on university campuses. Driven by the mission to make collaboration easier between people, Thinkspaces centralizes both student led endeavors like startups, passion projects, and research. In the Spring of 2018, we entered Yale’s Spring Accelerator and won the Audience Choice Award at the final pitchoff.</p>
-        </div>
-        </Col>
-        </Row>
-      </div>
-      <hr/>
-      </div>
-        <h3 style={{ textAlign: "center", marginTop: "10%"}}>
-          A Minimum Viable Product
-        </h3>
-        <br />
-        <p className = "textCSS">
-          In October 2018, my team and I built a scrappy MVP using React.
-          Initially, we had no backend and had users submit projects using a
-          Google Form. After receiving some signs of success, we built out the
-          backend framework using Google Firebase and built out our sign up
-          flow. In months, we received over 40 projects and nearly 200 users.
-        </p>
-        <br />
-        <div
-          style={{
-            marginRight: "20%",
-            marginLeft: "20%"
-          }}
-        >
-          <Carousel
-            useKeyboardArrows={true}
-            showIndicators={false}
-            showStatus={false}
-            showArrows={false}
-          >
-            <div>
-              <img src="https://felswebsite.s3.amazonaws.com/TMVP+%E2%80%93+1.png" />
-            </div>
-            <div>
-              <img src="https://felswebsite.s3.amazonaws.com/TMVP+%E2%80%93+2.png" />
-            </div>
-            <div>
-              <img src="https://felswebsite.s3.amazonaws.com/TMVP+%E2%80%93+3.png" />
-            </div>
-            <div>
-              <img src="https://felswebsite.s3.amazonaws.com/TMVP+%E2%80%93+4.png" />
-            </div>
-          </Carousel>
-        </div>
-        <br />
-        <br />
-        <h3 style={{ textAlign: "center", paddingTop: 50 }}>
-          User Feedback and Interviews
-        </h3>
-        <br />
-        <p style={{ marginLeft: "20%", marginRight: "20%" }}>
-          After the release of our MVP, we conducted over 20 user interviews
-          from both project owners and project seekers. We quickly identified
-          three core issues that we needed to address in our V2.
-        </p>
-        <br />
-        <p style={{ marginLeft: "20%", marginRight: "20%" }}>
-          1. Project Submission is much stronger than user profiles. A two-sided
-          marketplace is not necessary.
-        </p>
-        <p style={{ marginLeft: "20%", marginRight: "20%" }}>
-          2. Easier Project Filtering. While an infinite
-          scroll encouraged project exploration, users wanted to be able to find
-          speicific projects quickly.
-        </p>
-        <p style={{ marginLeft: "20%", marginRight: "20%" }}>
-          3. Quality Control. Because we host projects from early stage to released, we needed to build a UI that maintained consistency despite the diversity of projects.
-        </p>
-        <br />
-        <p style={{ marginLeft: "20%", marginRight: "20%" }}>
-        The most significant area that design could respond to our user feedback was quality control. The project card is one example in which design played a large role in providing quality across projects.
-        </p>
-        <br />
-        <br/>
-        <h3 style={{ textAlign: "center", paddingTop: 50 }}>Project Card Case Study</h3>
-        <br />
-        <div style={{ marginLeft: "20%", marginRight: "20%" }}>
-        <Row>
-        <Col>
-        <h3 style={{ textAlign: "center", paddingTop: 50 }}>Original Card</h3>
-
-        <div className = "card-container">
-          <img src="https://felswebsite.s3.amazonaws.com/ThinkspacesCard+4.png" />
-        </div>
-        </Col>
-        <Col>
-        <h3 style={{ textAlign: "center", paddingTop: 50 }}>New Card</h3>
-        <div className = "card-container">
-          <img src="https://felswebsite.s3.amazonaws.com/ThinkspacesCard+3.png" />
-        </div>
-        </Col>
-        </Row>
-        </div>
-        <br/>
-        <p style={{ marginLeft: "20%", marginRight: "20%" }}>
-          There were two big problems with our project card:
-        </p>
-        <br />
-        <p style={{ marginLeft: "20%", marginRight: "20%" }}>
-          1. Many projects didn't have image assets or logos. By minimizing and repositioning the image, project cards without image assets could still look polished.
-        </p>
-          <br />
-        <p style={{ marginLeft: "20%", marginRight: "20%" }}>
-          2. Project seekers don't know what roles/how many roles are available in a project unless they click on it. In the new card design, we have a designated a specific section describing available roles.
-        </p>
-        <br/>
-        <br/>
-        <h3 style={{ textAlign: "center", paddingTop: 50 }}>Version 2</h3>
-        <br />
-        <div
-          style={{
-              marginRight: "20%",
-              marginLeft: "20%"
-
-          }}
-        >
-        <video style={{width:"100%"}}controls src="https://felswebsite.s3.amazonaws.com/Thinkspacesbetter.webm" type="video/webm">
-            <p>Your browser does not support the video element.</p>
-        </video>
-        </div>
-        <br />
-        <br />
-        <h3 style={{ textAlign: "center", paddingTop: 50 }}>Logo Brainstorm</h3>
-        <p style={{ marginLeft: "20%", marginRight: "20%" }}>
-          My main objective with the logo was to communicate
-          Thinkspaces' devotion to creativity. To do so, I wanted to build an
-          identity that was bright and spunky, experimenting with
-          different symbols and colors.
-        </p>
-        <div className="image-container">
-          <LazyLoad>
-            <img src="https://felswebsite.s3.amazonaws.com/thinkspaceslogoideas2.png" />
-          </LazyLoad>
-        </div>
-        <br />
-        <p style={{ marginLeft: "20%", marginRight: "20%" }}>
-          We concluded with the logo below as it seemed to capture most
-          accurately the spontaneity of a great idea. It was bright, fun, and
-          not too corporate.
-        </p>
-        <div className="circlelogo-container">
-          <LazyLoad>
-            <img src="https://felswebsite.s3.amazonaws.com/thinkspacescircle.png" />
-          </LazyLoad>
-        </div>
-        <div className="logo-container">
-          <LazyLoad>
-            <img src="https://felswebsite.s3.amazonaws.com/thinkspaceslogowhite.png" />
-          </LazyLoad>
-        </div>
-        <div className="poster-container">
-          <LazyLoad>
-            <img src="https://felswebsite.s3.amazonaws.com/thinkspacesposter.png" />
-          </LazyLoad>
-        </div>
+      <div style={{marginBottom: "10%"}}>
+        <HeaderComponent
+          name="Thinkspaces."
+          title="Cofounder | 2017-2019"
+          des="Driven by the mission to make collaboration easier between people, Thinkspaces centralizes both student led endeavors like startups, passion projects, and research. In the Spring of 2018, we entered Yale’s Spring Accelerator and won the Audience Choice Award at the final pitchoff."
+          color= "#FFFCDE"
+          img="https://felswebsite.s3.amazonaws.com/thinkspacesbannergrayscale.png"
+        />
+        <BlogComponent
+          number="01."
+          title="A Minimum Viable Product"
+          text="In October 2018, my team and I built a scrappy MVP using React. We had built a two-sided marketplace where students interested in joining a project could create a profile with their skills while students with projects would create a post open positions."
+          image= {
+            <Carousel
+              useKeyboardArrows={true}
+              showIndicators={false}
+              showStatus={false}
+              showArrows={false}
+            >
+              <div>
+                <img src="https://felswebsite.s3.amazonaws.com/TMVP+%E2%80%93+1.png" />
+              </div>
+              <div>
+                <img src="https://felswebsite.s3.amazonaws.com/TMVP+%E2%80%93+2.png" />
+              </div>
+              <div>
+                <img src="https://felswebsite.s3.amazonaws.com/TMVP+%E2%80%93+3.png" />
+              </div>
+              <div>
+                <img src="https://felswebsite.s3.amazonaws.com/TMVP+%E2%80%93+4.png" />
+              </div>
+            </Carousel>
+          }
+        />
+        <BlogComponent
+        number="02."
+        title="Getting User Feedback"
+        text=" After the release of our MVP, we conducted over 20 user interviewsfrom both project owners and project seekers. We quickly identified three core issues that we needed to address in our V2."
+        image={
+          <div style={{margin: "0 auto"}}>
+          <img style={{objectFit: "contain", width: 500, display: "block", margin: "auto"}} src="https://felswebsite.s3.amazonaws.com/thinkspacesuserinterviewgrayscale.png"/>
+          </div>}
+        />
+        <BlogComponent
+        number="03."
+        title="Prioritizing & Scheduling"
+        text="While there were many ways in which we could implement our user feedback, we wanted to address issues that would provide maximum value. In terms of the user interface, this involved developing a filtering system, redesigning the project card and project page. Here's a picture of what our kanban board looked like:"
+        image={
+          <div style={{margin: "0 auto"}}>
+          <img style={{objectFit: "contain", width: 500, display: "block", margin: "auto"}} src="https://felswebsite.s3.amazonaws.com/thinksapceskanban.png"/>
+          </div>}
+        />
+        <BlogComponent
+        number="04."
+        title="Building a filtering system"
+        text="From our user interviews, we found that users mainly considered projects under three categories, the discipline, the organization type, and its development stage. So, we did just that."
+        image={
+          <div style={{margin: "0 auto"}}>
+          <img style={{objectFit: "contain", width: 500, display: "block", margin: "auto"}} src="https://felswebsite.s3.amazonaws.com/thinkspacesfilter.gif"/>
+          </div>}
+        />
+        <BlogComponent
+        number="05."
+        title="Redesiging the Project Card"
+        text="In designing the project card, my goal to give users a clear scope of the project without having to open to project. To do this, I deprioritized the project photo and added a section for open roles."
+        image={
+          <div style={{margin: "0 auto", color: "gray"}}>
+                  <Row>
+                  <Col>
+                  <p style={{ textAlign: "center", paddingTop: 50 }}>New Card</p>
+                    <img style={{objectFit: "contain", width: 200, display: "block", margin: "auto"}} src="https://felswebsite.s3.amazonaws.com/ThinkspacesCard+3.png" />
+                  </Col>
+                  <Col>
+                  <p style={{ textAlign: "center", paddingTop: 50 }}>Original Card</p>
+                    <img style={{objectFit: "contain", width: 200, display: "block", margin: "auto"}} src="https://felswebsite.s3.amazonaws.com/ThinkspacesCard+4.png" />
+                  </Col>
+                  </Row>
+          </div>}
+        />
+        <BlogComponent
+        number="06."
+        title="Redesigning the Project Page"
+        text="Similar to the project card, I wanted to deprioritize images (which we found was usually just a logo) and display more useful informtaion about the project. I also reorganized the project page into more modular components organized vertically."
+        image={
+          <div style={{margin: "0 auto"}}>
+          <img style={{objectFit: "contain", width: 500, display: "block", margin: "auto"}} src="https://felswebsite.s3.amazonaws.com/thinkspacesproject2.gif"/>
+          </div>}
+        />
       </div>
     );
   }
