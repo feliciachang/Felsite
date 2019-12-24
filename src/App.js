@@ -4,6 +4,8 @@ import {Navbar, NavbarBrand, Nav, NavItem, NavLink} from "reactstrap";
 import "./App.css";
 import "./index.css";
 
+import NavbarComp from "./navbar.js"
+
 import AboutMe from "./home/home";
 import AboutMe2 from "./home/home2";
 import Web from "./web/web";
@@ -35,18 +37,7 @@ class App extends Component {
         <link href="https://fonts.googleapis.com/css?family=Noto+Sans|Open+Sans&display=swap" rel="stylesheet"/>
         <link href="https://fonts.googleapis.com/css?family=Work+Sans&display=swap" rel="stylesheet"/>
         <div style={{margin: "0%"}}> </div>
-        <Navbar>
-          <NavbarBrand href="/" style={{fontSize: 40, color: "#ff6e6e"}}>{"//"}
-          </NavbarBrand>
-          <Nav>
-          <NavItem>
-          <NavLink style={{ color: "#ff6e6e", fontSize: 16}} href="/aboutme">ABOUT</NavLink>
-          </NavItem>
-            <NavItem>
-            <NavLink style={{ color: "#ff6e6e", fontSize: 16}} href="https://felswebsite.s3.amazonaws.com/FeliciaChangCV.pdf">CV</NavLink>
-            </NavItem>
-          </Nav>
-        </Navbar>
+        <NavbarComp/>
         <Router>
           <Route path="/" exact component={Web}/>
           <Route path="/aboutme" exact component={AboutMe}/>
