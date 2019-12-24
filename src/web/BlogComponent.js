@@ -9,7 +9,7 @@ const BlogComponent = ({number, title, text, image}) => {
     return (
       <div style={{marginLeft: "10%", marginRight: "5%", marginTop: "10%"}}>
         <Row>
-        <Col xs= "auto" sm="4" md="4" lg="4" xl="4">
+        <Col xs= "auto" sm="auto" md="4" lg="4" xl="4">
         <div style = {{color: "gray"}}>
         <p >{number}</p>
         </div>

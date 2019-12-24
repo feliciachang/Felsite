@@ -51,7 +51,7 @@ class ThinkspacesCard extends Component {
         text=" After the release of our MVP, we conducted over 20 user interviewsfrom both project owners and project seekers. We quickly identified three core issues that we needed to address in our V2."
         image={
           <div style={{margin: "0 auto"}}>
-          <img style={{objectFit: "contain", width: 500, display: "block", margin: "auto"}} src="https://felswebsite.s3.amazonaws.com/thinkspacesuserinterviewgrayscale.png"/>
+          <img style={{objectFit: "contain", width: "100%", height: "auto", display: "block", margin: "auto"}} src="https://felswebsite.s3.amazonaws.com/thinkspacesuserinterviewgrayscale.png"/>
           </div>}
         />
         <BlogComponent
@@ -60,7 +60,7 @@ class ThinkspacesCard extends Component {
         text="While there were many ways in which we could implement our user feedback, we wanted to address issues that would provide maximum value. In terms of the user interface, this involved developing a filtering system, redesigning the project card and project page. Here's a picture of what our kanban board looked like:"
         image={
           <div style={{margin: "0 auto"}}>
-          <img style={{objectFit: "contain", width: 500, display: "block", margin: "auto"}} src="https://felswebsite.s3.amazonaws.com/thinksapceskanban.png"/>
+          <img style={{objectFit: "contain", width: "100%", height: "auto",  display: "block", margin: "auto"}} src="https://felswebsite.s3.amazonaws.com/thinksapceskanban.png"/>
           </div>}
         />
         <BlogComponent
@@ -69,7 +69,7 @@ class ThinkspacesCard extends Component {
         text="From our user interviews, we found that users mainly considered projects under three categories, the discipline, the organization type, and its development stage. So, we did just that."
         image={
           <div style={{margin: "0 auto"}}>
-          <img style={{objectFit: "contain", width: 500, display: "block", margin: "auto"}} src="https://felswebsite.s3.amazonaws.com/thinkspacesfilter.gif"/>
+          <img style={{objectFit: "contain", width: "100%", height: "auto", display: "block", margin: "auto"}} src="https://felswebsite.s3.amazonaws.com/thinkspacesfilter.gif"/>
           </div>}
         />
         <BlogComponent
@@ -96,7 +96,7 @@ class ThinkspacesCard extends Component {
         text="Similar to the project card, I wanted to deprioritize images (which we found was usually just a logo) and display more useful informtaion about the project. I also reorganized the project page into more modular components organized vertically."
         image={
           <div style={{margin: "0 auto"}}>
-          <img style={{objectFit: "contain", width: 500, display: "block", margin: "auto"}} src="https://felswebsite.s3.amazonaws.com/thinkspacesproject2.gif"/>
+          <img style={{objectFit: "contain", width: "100%", height: "auto", display: "block", margin: "auto"}} src="https://felswebsite.s3.amazonaws.com/thinkspacesproject2.gif"/>
           </div>}
         />
       </div>

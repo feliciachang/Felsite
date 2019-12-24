@@ -21,7 +21,7 @@ class LuxPage extends Component {
       text="For this project, I was tasked with creating an art installation that considered the space in which it was installed. To me, the Becton Center is the physical manifestation of what people envision engineering to be. With a concrete and stone exterior, the Becton Center feels menacing - a space reserved only for the most logical and mechanical. As a result, I was interested in creating something that was playful through color and type. (Photo by Bentel & Bentel)"
       image={
         <div style={{margin: "0 auto"}}>
-        <img style={{objectFit: "contain", height: 350, display: "block", margin: "auto"}} src="https://www.bentelandbentel.com/~bentelan/images/uploads/cache/images/uploads/project-images/gcbc_0403_1500_998.jpg"/>
+        <img style={{objectFit: "contain", width: "80%", height: "auto", display: "block", margin: "auto"}} src="https://www.bentelandbentel.com/~bentelan/images/uploads/cache/images/uploads/project-images/gcbc_0403_1500_998.jpg"/>
         </div>}
       />
       <BlogComponent
@@ -30,9 +30,9 @@ class LuxPage extends Component {
       text="Before building the installation, I needed to first understand the pixel mapping of the space. This was a crucial first step because the Becton LCD screens, which we were displaying our graphics on, spanned many different spaces, from the entrance, to the walls and ceiling."
       image={
         <div style={{margin: "0 auto"}}>
-        <img style={{objectFit: "contain", height: 350, display: "block", margin: "auto"}} src="https://felswebsite.s3.amazonaws.com/newscreen1.png"/>
+        <img style={{objectFit: "contain", width: "80%", height: "auto", display: "block", margin: "auto"}} src="https://felswebsite.s3.amazonaws.com/newscreen1.png"/>
         <br/>
-        <img style={{objectFit: "contain", height: 350, display: "block", margin: "auto"}} src="https://felswebsite.s3.amazonaws.com/BectonFront.jpg"/>
+        <img style={{objectFit: "contain", width: "80%", height: "auto", display: "block", margin: "auto"}} src="https://felswebsite.s3.amazonaws.com/BectonFront.jpg"/>
         </div>}
       />
       <BlogComponent

@@ -20,7 +20,7 @@ class SineQuaNonPage extends Component {
       text="Over the summer, I started to explore the world of generative art through P5JS and Processing. I became increasingly interested in how interactivity in P5JS could enhance the poetry reading experience. As a result, I created this website called Sine Qua Non that documents a few poetry collaborations I have done with friends."
       image={
         <div style={{margin: "0 auto"}}>
-          <img style={{objectFit: "contain", maxHeight: 400, display: "block", margin: "auto"}} src="https://felswebsite.s3.amazonaws.com/sineabout.gif" />
+          <img style={{objectFit: "contain",  width: "100%", height: "auto", display: "block", margin: "auto"}} src="https://felswebsite.s3.amazonaws.com/sineabout.gif" />
         </div>}
       />
       <BlogComponent
@@ -29,7 +29,7 @@ class SineQuaNonPage extends Component {
       text="I intentionally chose colors that were more muted and natural paired with a serif font. In doing so, I wanted to evoke the intimate, yet nostalgic feeling of reading an aged book in which the pages are a little yellowed and discolored. The interactivity that complements each poem is meant to enhance the meaning of the poem in a visual way. It is both immersive yet minimal so as not to distract from the reading."
       image={
         <div style={{margin: "0 auto"}}>
-          <img style={{objectFit: "contain", maxHeight: 400, display: "block", margin: "auto"}} src="https://felswebsite.s3.amazonaws.com/sinepoem.png" />
+          <img style={{objectFit: "contain", width: "100%", height: "auto", display: "block", margin: "auto"}} src="https://felswebsite.s3.amazonaws.com/sinepoem.png" />
         </div>}
       />
       <BlogComponent
@@ -38,7 +38,7 @@ class SineQuaNonPage extends Component {
       text="To build this website, I have been using React with a P5JS wrapper. Unfortunately, this precludes me from using P5JS.dom, which provides HTML and CSS bindings. For future development, I may move away from React and develop the website in vanilla Javascript."
       image={
         <div style={{margin: "0 auto"}}>
-          <img style={{objectFit: "contain", maxHeight: 350, display: "block", margin: "auto"}} src="https://felswebsite.s3.amazonaws.com/sinedrowning.png" />
+          <img style={{objectFit: "contain", width: "100%", height: "auto", display: "block", margin: "auto"}} src="https://felswebsite.s3.amazonaws.com/sinedrowning.png" />
         </div>}
       />
       </div>

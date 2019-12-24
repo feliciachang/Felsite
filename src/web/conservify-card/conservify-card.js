@@ -23,7 +23,7 @@ class ConservifyCard extends Component {
       text="During my year-long internship, I worked predominantly on launching Conservify's mobile app for an upcoming expedition with National Geographic. In particular, I redesigned and implemented the UI/UX for the mobile app's navigation system. The mobile app served as the intermediary between deployed environmental sensors and the Conservify website the data was then visualized."
       image={
         <div style={{margin: "0 auto"}}>
-          <img style={{objectFit: "contain", width: 500, display: "block", margin: "auto"}} src="https://felswebsite.s3.amazonaws.com/fieldkitprocess.png"/>
+          <img style={{objectFit: "contain",  width: "80%", height: "auto", display: "block", margin: "auto"}} src="https://felswebsite.s3.amazonaws.com/fieldkitprocess.png"/>
         </div>}
       />
       <BlogComponent
@@ -32,7 +32,7 @@ class ConservifyCard extends Component {
       text="Rather than using a navigation bar, the app only had a button called Advanced Options that then took the user to a row of buttons. This was extremely inefficient and led the developer to pile all functionality into Easy Transfer. As a result, the app had no modularity and gave users a confusing experience."
       image={
         <div style={{margin: "0 auto"}}>
-        <img style={{objectFit: "contain", width: 500, height: 400, display: "block", margin: "auto"}} src="https://felswebsite.s3.amazonaws.com/OriginalFieldkit.png"/>
+        <img style={{objectFit: "contain",  width: "50%", height: "auto", display: "block", margin: "auto"}} src="https://felswebsite.s3.amazonaws.com/OriginalFieldkit.png"/>
         </div>}
       />
       <BlogComponent
@@ -41,7 +41,7 @@ class ConservifyCard extends Component {
       text="To build the navigation system, I needed to first identify the main functionalities of the app. From testing the app and working with the founders, I identified four main features: downloading data from the sensor, uploading data to the computer, browsing data on the phone, and learning more about Fieldkit. I thus made those the four main screens."
       image={
         <div style={{margin: "0 auto"}}>
-          <img style={{objectFit: "contain", maxWidth: 340, display: "block", margin: "auto"}} src="https://felswebsite.s3.amazonaws.com/IMG_0791.jpg" />
+          <img style={{objectFit: "contain", width: "50%", height: "auto", display: "block", margin: "auto"}} src="https://felswebsite.s3.amazonaws.com/IMG_0791.jpg" />
         </div>}
       />
       <BlogComponent
@@ -54,6 +54,7 @@ class ConservifyCard extends Component {
           <img style={{objectFit: "contain", maxWidth: 200, display: "block", margin: "auto"}} src="https://felswebsite.s3.amazonaws.com/Android+Mobile+%E2%80%93+10.png" />
           <img style={{objectFit: "contain", maxWidth: 200, display: "block", margin: "auto"}} src="https://felswebsite.s3.amazonaws.com/Android+Mobile+%E2%80%93+22.png" />
         </Row>
+        <br/>
         <Row>
           <img style={{objectFit: "contain", maxWidth: 200, display: "block", margin: "auto"}} src="https://felswebsite.s3.amazonaws.com/Android+Mobile+%E2%80%93+6.png" />
           <img style={{objectFit: "contain", maxWidth: 200, display: "block", margin: "auto"}} src="https://felswebsite.s3.amazonaws.com/Android+Mobile+%E2%80%93+9.png" />
