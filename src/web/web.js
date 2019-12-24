@@ -175,6 +175,19 @@ class WeiboPhoto extends Component {
       );
   }
 }
+class ReactiveLampPhoto extends Component {
+  render() {
+      return (
+        <div className="container">
+          <img className="image" src="https://felswebsite.s3.amazonaws.com/reactivelampcover.png" />
+          <div className="middle">
+            <div className="text">Reactive Lamp</div>
+            <div className="text2">exploring self-actuation in decorative furniture 2019</div>
+          </div>
+        </div>
+      );
+  }
+}
 
 class CameraTrapPhoto extends Component {
   render() {
@@ -196,23 +209,15 @@ class CameraTrapPhoto extends Component {
 }
 class LuxGraphic extends Component {
   render() {
-    if(this.props.mobile) {
-      return (
-        <div className="image-container2">
-          <img src="https://felswebsite.s3.amazonaws.com/luxphoto.png" />
-        </div>
-      );
-    }
-    else {
-      return (
-          <div className="container">
-            <img className="image" src="https://felswebsite.s3.amazonaws.com/luxphoto.png" />
-            <div className="middle">
-              <div className="text">Sina Weibo</div>
-            </div>
+    return(
+        <div className="container">
+          <img className="image" src="https://felswebsite.s3.amazonaws.com/luxphoto.png" />
+          <div className="middle">
+            <div className="text">Lux Et Veritas</div>
+            <div className="text2">An art installation in Yale's Becton Cafe 2019</div>
           </div>
-      );
-    }
+        </div>
+    )
   }
 }
 
@@ -286,6 +291,30 @@ class Web extends Component {
             graph3=""
             mainPhoto={<WeiboPhoto mobile= {this.state.mobile}/>}
             graphics={<WeiboCard />}
+          />
+          </Col>
+          <Col xs = "auto" lg = "6">
+          <ExperienceCard2
+            name="ReactiveLamp"
+            url="/reactivelamp"
+            date="2019"
+            tools="Java - Processing, Raspberry Pi"
+            graph1="Lux et veritas is a generative art piece built for LCD installation at the Becton Center at Yale. As an environmental art piece that exists in a functional space, Lux et veritas seeks to engage, communicate, and exist with people."
+            mainPhoto={<ReactiveLampPhoto mobile= {this.state.mobile}/>}
+            graphics={<ReactiveLampPhoto/>}
+          />
+          </Col>
+          </Row>
+          <Row xs="2">
+          <Col xs = "auto" lg = "6">
+          <ExperienceCard2
+            name="Lux Et Veritas"
+            url="/luxetveritas"
+            date="2019"
+            tools="Java - Processing, Raspberry Pi"
+            graph1="Lux et veritas is a generative art piece built for LCD installation at the Becton Center at Yale. As an environmental art piece that exists in a functional space, Lux et veritas seeks to engage, communicate, and exist with people."
+            mainPhoto={<LuxGraphic mobile= {this.state.mobile}/>}
+            graphics={<LuxPage />}
           />
           </Col>
           <Col xs = "auto" lg = "6">

@@ -11,6 +11,8 @@ import ThinkspacesCard from "./web/thinkspaces/thinkspaces-card";
 import ConservifyCard from "./web/conservify-card/conservify-card";
 import WeiboCard from "./web/weibo-card/weibo-card";
 import SineQuaNonPage from "./web/sinequanon/sinequanon";
+import LuxPage from "./web/luxetveritas/luxetveritas";
+import ReactiveLamp from "./web/ReactiveLamp/ReactiveLamp";
 
 var divStyle = {
   margin: "50px"
@@ -52,6 +54,8 @@ class App extends Component {
           <Route path="/conservify" exact component={ConservifyCard}/>
           <Route path="/weibo" exact component={WeiboCard}/>
           <Route path="/sinequanon" exact component={SineQuaNonPage}/>
+          <Route path="/luxetveritas" exact component={LuxPage}/>
+          <Route path="/reactivelamp" exact component={ReactiveLamp}/>
         </Router>
       </div>
     );
