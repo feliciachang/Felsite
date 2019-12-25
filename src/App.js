@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Switch, Route, Link} from 'react-router-dom';
 import {Navbar, NavbarBrand, Nav, NavItem, NavLink} from "reactstrap";
 import "./App.css";
 import "./index.css";
+import ReactGA from 'react-ga';
 
 import NavbarComp from "./navbar.js"
 
@@ -22,6 +23,9 @@ var divStyle = {
 var bodyStyle = {
   margin: "80px"
 };
+
+ReactGA.initialize('UA-148340396-1');
+ReactGA.pageview(window.location.pathname + window.location.search);
 
 class App extends Component {
   render() {

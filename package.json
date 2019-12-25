@@ -6,6 +6,7 @@
     "bootstrap": "^4.2.1",
     "react": "^16.7.0",
     "react-dom": "^16.7.0",
+    "react-ga": "^2.7.0",
     "react-lazyload": "^2.6.2",
     "react-navigation": "^3.11.1",
     "react-responsive": "^8.0.1",
