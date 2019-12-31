@@ -38,16 +38,16 @@ class AboutMe extends Component {
   render() {
     console.log(this.state.compile);
     return (
-      <div style = {{margin: 40}}>
+      <div style = {{margin: "5%"}}>
         <div style={divStyle}>
           <Row>
             <Col>
-              <p style={{ paddingTop: 60, fontFamily: "Roboto Mono"}}>
+              <p style={{ fontFamily: "Roboto Mono"}}>
                 {"int main (About me) {"}
                 <br />
                 &emsp; {"while ( Felicia is at Yale University ) {"}
                 <br />
-                &emsp;&emsp;&emsp; {"she studies Computer Science;"}
+                &emsp;&emsp;&emsp; {"she studies Computer Science and Art;"}
                 <br />
                 &emsp;&emsp;&emsp; {"is interested in;"}
                 <br />
@@ -77,17 +77,13 @@ class AboutMe extends Component {
                 <br />
                 &emsp;{"if (you would like to check out some of her work) {"}
                 <br />
-                &emsp;&emsp;&emsp;{"scroll on down;"}
-                <br />
-                &emsp;&emsp;&emsp;{"or if you're tired of this website;"}
-                <br />
                 &emsp;&emsp;&emsp;{"find me on"}
                 <a href="https://www.linkedin.com/in/felicia-chang-20666112a/">
                   {" "}
                   LinkedIn{" "}
                 </a>
                 ,<a href="https://github.com/feliciachang"> Github </a>, or
-                <a href="https://twitter.com/felchang"> Twitter </a>
+                <a href="https://twitter.com/felchang"> Twitter </a>;
                 <br />
                 &emsp;{"}"}
                 <br />
