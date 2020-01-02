@@ -65,17 +65,18 @@ class ConservifyCard extends Component {
       number="05."
       title="Designing the Full Experience"
       text=""
-      image={<div></div>}
+      image={<div>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/BcJPL5M3Eqs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>}
       />
-      <div style={{margin: "0 auto"}}>
-      <video style={{width:"100%"}}controls src="https://felswebsite.s3.amazonaws.com/Fieldkit.webm" type="video/webm">
-      <p>Your browser does not support the video element.</p>
-      </video>
-      </div>
       </div>
     )
   }
 }
+
+// <video style={{width:"100%"}}controls src="https://felswebsite.s3.amazonaws.com/fiek.webm" type="video/webm">
+// <p>Your browser does not support the video element.</p>
+// </video>
 //
 // class ConservifyCard extends Component {
 //   render() {

@@ -6,14 +6,14 @@ class NavbarComp extends Component {
   render(){
     return(
       <Navbar>
-        <NavbarBrand href="/" style={{fontSize: 40, color: "#ff6e6e"}}>{"//"}
+        <NavbarBrand href="/" style={{fontSize: 40, color: "#f88379"}}>{"//"}
         </NavbarBrand>
         <Nav>
         <NavItem active={window.location.pathname === "/aboutme"}>
-        <NavLink style={{ color: "#ff6e6e", fontSize: 16}} href="/aboutme">ABOUT</NavLink>
+        <NavLink style={{ color: "#f88379", fontSize: 16}} href="/aboutme">ABOUT</NavLink>
         </NavItem>
           <NavItem>
-          <NavLink style={{ color: "#ff6e6e", fontSize: 16}} href="https://felswebsite.s3.amazonaws.com/FeliciaChangCV.pdf">CV</NavLink>
+          <NavLink style={{ color: "#f88379", fontSize: 16}} href="https://felswebsite.s3.amazonaws.com/FeliciaChangCV.pdf">CV</NavLink>
           </NavItem>
         </Nav>
       </Navbar>

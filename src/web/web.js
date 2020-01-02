@@ -96,7 +96,7 @@ class SineQuaNonPhoto extends Component {
           <img className="image" src="https://felswebsite.s3.amazonaws.com/SineQuaNonDesktop.png" />
           <div className="middle">
             <div className="text">Sine Qua Non</div>
-            <div className="text2">an interactive digital magazine &emsp; 2019</div>
+            <div className="text2">an interactive digital magazine 2019</div>
           </div>
         </div>
       );
@@ -214,7 +214,7 @@ class LuxGraphic extends Component {
           <img className="image" src="https://felswebsite.s3.amazonaws.com/luxphoto.png" />
           <div className="middle">
             <div className="text">Lux Et Veritas</div>
-            <div className="text2">An art installation in Yale's Becton Cafe 2019</div>
+            <div className="text2">an art installation in yale's becton cafe 2019</div>
           </div>
         </div>
     )
@@ -295,13 +295,16 @@ class Web extends Component {
           </Col>
           <Col xs = "auto" lg = "6">
           <ExperienceCard2
-            name="ReactiveLamp"
-            url="/reactivelamp"
-            date="2019"
-            tools="Java - Processing, Raspberry Pi"
-            graph1="Lux et veritas is a generative art piece built for LCD installation at the Becton Center at Yale. As an environmental art piece that exists in a functional space, Lux et veritas seeks to engage, communicate, and exist with people."
-            mainPhoto={<ReactiveLampPhoto mobile= {this.state.mobile}/>}
-            graphics={<ReactiveLampPhoto/>}
+            name="Sine Qua Non (in progress)"
+            url="/sinequanon"
+            date="2019-now"
+            position="Creator"
+            tools="ReactJS, p5js"
+            graph1="Sine Qua Non is an interactive digital magazine meant to challenge the current information culture in which content is consumed passively. Through interactivity, Sine Qua Non hopes to make the reader part of the work itself."
+            graph2="I received funding from the College of Performing Arts grant to build out the first edition of the magazine. The first edition will be formally released in December. I am currently beta testing the website with a small pool of readers."
+            graph3=""
+            mainPhoto={<SineQuaNonPhoto mobile= {this.state.mobile}/>}
+            graphics={<SineQuaNonPage/>}
           />
           </Col>
           </Row>
@@ -319,16 +322,13 @@ class Web extends Component {
           </Col>
           <Col xs = "auto" lg = "6">
           <ExperienceCard2
-            name="Sine Qua Non (in progress)"
-            url="/sinequanon"
-            date="2019-now"
-            position="Creator"
-            tools="ReactJS, p5js"
-            graph1="Sine Qua Non is an interactive digital magazine meant to challenge the current information culture in which content is consumed passively. Through interactivity, Sine Qua Non hopes to make the reader part of the work itself."
-            graph2="I received funding from the College of Performing Arts grant to build out the first edition of the magazine. The first edition will be formally released in December. I am currently beta testing the website with a small pool of readers."
-            graph3=""
-            mainPhoto={<SineQuaNonPhoto mobile= {this.state.mobile}/>}
-            graphics={<SineQuaNonPage/>}
+            name="ReactiveLamp"
+            url="/reactivelamp"
+            date="2019"
+            tools="Java - Processing, Raspberry Pi"
+            graph1="Lux et veritas is a generative art piece built for LCD installation at the Becton Center at Yale. As an environmental art piece that exists in a functional space, Lux et veritas seeks to engage, communicate, and exist with people."
+            mainPhoto={<ReactiveLampPhoto mobile= {this.state.mobile}/>}
+            graphics={<ReactiveLampPhoto/>}
           />
           </Col>
           </Row>

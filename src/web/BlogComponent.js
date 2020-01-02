@@ -13,7 +13,7 @@ const BlogComponent = ({number, title, text, image}) => {
         <div style = {{color: "gray"}}>
         <p >{number}</p>
         </div>
-        <h3 style={{ paddingBottom: "8%"}}>{title}</h3>
+        <h3 style={{ paddingBottom: "10%"}}>{title}</h3>
         <div style = {{color: "gray"}}>
         <p >{text}</p>
         </div>

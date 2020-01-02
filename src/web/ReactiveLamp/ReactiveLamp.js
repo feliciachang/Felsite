@@ -7,7 +7,7 @@ import HeaderComponent from "../HeaderComponent.js"
 class ReactiveLamp extends Component {
   render(){
     return(
-      <div>
+      <div style={{marginBottom: "10%"}}>
       <HeaderComponent
         name="Reactive Lamp."
         title="Class Project | 2019 Fall"
