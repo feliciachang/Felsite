@@ -17,6 +17,8 @@ import SineQuaNonPage from "./web/sinequanon/sinequanon";
 import LuxPage from "./web/luxetveritas/luxetveritas";
 import ReactiveLamp from "./web/ReactiveLamp/ReactiveLamp";
 
+import ScrollToTop from "./web/ScrollToTop";
+
 var divStyle = {
   margin: "50px"
 };
@@ -43,6 +45,7 @@ class App extends Component {
         <div style={{margin: "0%"}}> </div>
         <NavbarComp/>
         <Router>
+          <ScrollToTop/>
           <Route path="/" exact component={Web}/>
           <Route path="/aboutme" exact component={AboutMe}/>
           <Route path="/thinkspaces" exact component={ThinkspacesCard}/>

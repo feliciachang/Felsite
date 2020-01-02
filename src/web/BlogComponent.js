@@ -20,7 +20,9 @@ const BlogComponent = ({number, title, text, image}) => {
         </Col>
         <Col>
         <div>
+        <LazyLoad offset={100}>
           {image}
+        </LazyLoad>
         </div>
         </Col>
         </Row>

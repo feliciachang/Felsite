@@ -12,6 +12,7 @@ import Posters from "./Posters/poster";
 import LuxPage from "./luxetveritas/luxetveritas";
 import AboutMe2 from "../home/home2";
 import { Redirect } from "react-router-dom";
+import LazyLoad from "react-lazyload";
 import "./web.css";
 
 var bodyStyle = {
@@ -93,7 +94,9 @@ class SineQuaNonPhoto extends Component {
   render() {
       return (
         <div className="container">
+          <LazyLoad offset={100}>
           <img className="image" src="https://felswebsite.s3.amazonaws.com/SineQuaNonDesktop.png" />
+          </LazyLoad>
           <div className="middle">
             <div className="text">Sine Qua Non</div>
             <div className="text2">an interactive digital magazine 2019</div>
@@ -107,7 +110,9 @@ class ThinkspacesPhoto extends Component {
   render() {
       return (
         <div className="container">
+          <LazyLoad offset={100}>
           <img className="image" src="https://felswebsite.s3.amazonaws.com/ThinkspacesHome.png" />
+          </LazyLoad>
           <div className="middle">
             <div className="text">Thinkspaces</div>
             <div className="text2">connecting students to projects 2017-2019</div>
@@ -121,7 +126,9 @@ class ConservifyPhoto extends Component {
   render() {
       return (
         <div className="container">
+          <LazyLoad offset={100}>
           <img className="image" src="https://felswebsite.s3.amazonaws.com/FieldKitStar.png" />
+          </LazyLoad>
           <div className="middle">
             <div className="text">Conservify</div>
             <div className="text2">making conservation tech accessible 2018-2019</div>
@@ -166,7 +173,9 @@ class WeiboPhoto extends Component {
   render() {
       return (
         <div className="container">
+          <LazyLoad offset={100}>
           <img className="image" src="https://felswebsite.s3.amazonaws.com/WeiboStar.png" />
+          </LazyLoad>
           <div className="middle">
             <div className="text">Sina Weibo</div>
             <div className="text2">china's largest microblogging app 2017</div>
@@ -179,7 +188,9 @@ class ReactiveLampPhoto extends Component {
   render() {
       return (
         <div className="container">
+          <LazyLoad offset={100}>
           <img className="image" src="https://felswebsite.s3.amazonaws.com/reactivelampcover.png" />
+          </LazyLoad>
           <div className="middle">
             <div className="text">Reactive Lamp</div>
             <div className="text2">exploring self-actuation in decorative furniture 2019</div>
@@ -211,7 +222,9 @@ class LuxGraphic extends Component {
   render() {
     return(
         <div className="container">
+          <LazyLoad offset={100}>
           <img className="image" src="https://felswebsite.s3.amazonaws.com/luxphoto.png" />
+          </LazyLoad>
           <div className="middle">
             <div className="text">Lux Et Veritas</div>
             <div className="text2">an art installation in yale's becton cafe 2019</div>

@@ -3,6 +3,7 @@ import { Row, Col } from "reactstrap";
 
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from "react-responsive-carousel";
+import LazyLoad from 'react-lazyload';
 
 const HeaderComponent = ({name, title, des, img, color}) => {
 
@@ -26,7 +27,9 @@ const HeaderComponent = ({name, title, des, img, color}) => {
         </div>
       </div>
       <div >
+      <LazyLoad height={200}>
         <img style ={{objectFit: "contain", height: "70%" }} className="cover-photo" src={img} />
+      </LazyLoad>
       </div>
     </div>
   )
