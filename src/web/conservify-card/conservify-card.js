@@ -41,7 +41,7 @@ class ConservifyCard extends Component {
       text="To build the navigation system, I needed to first identify the main functionalities of the app. From testing the app and working with the founders, I identified four main features: downloading data from the sensor, uploading data to the computer, browsing data on the phone, and learning more about Fieldkit. I thus made those the four main screens."
       image={
         <div style={{margin: "0 auto"}}>
-          <img style={{objectFit: "contain", width: "50%", height: "auto", display: "block", margin: "auto"}} src="https://felswebsite.s3.amazonaws.com/IMG_0791.jpg" />
+          <img style={{objectFit: "contain", width: "50%", height: "auto", display: "block", margin: "auto"}} src="https://felswebsite.s3.amazonaws.com/fieldkitux.png" />
         </div>}
       />
       <BlogComponent

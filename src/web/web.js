@@ -11,6 +11,8 @@ import SineQuaNonPage from "./sinequanon/sinequanon";
 import Posters from "./Posters/poster";
 import LuxPage from "./luxetveritas/luxetveritas";
 import AboutMe2 from "../home/home2";
+import FlossbankPage from "./flossbank/flossbank";
+
 import { Redirect } from "react-router-dom";
 import LazyLoad from "react-lazyload";
 import "./web.css";
@@ -100,6 +102,22 @@ class SineQuaNonPhoto extends Component {
           <div className="middle">
             <div className="text">Sine Qua Non</div>
             <div className="text2">an interactive digital magazine 2019</div>
+          </div>
+        </div>
+      );
+  }
+}
+
+class FlossbankPhoto extends Component {
+  render() {
+      return (
+        <div className="container">
+          <LazyLoad offset={100}>
+          <img className="image" src="https://felswebsite.s3.amazonaws.com/flossbankcard.png" />
+          </LazyLoad>
+          <div className="middle">
+            <div className="text">Flossbank</div>
+            <div className="text2">send text based ads in the terminal 2019</div>
           </div>
         </div>
       );
@@ -309,6 +327,22 @@ class Web extends Component {
           <Col xs = "auto" lg = "6">
           <ExperienceCard2
             name="Sine Qua Non (in progress)"
+            url="/flossbank"
+            date="2019-now"
+            position="Creator"
+            tools="ReactJS, p5js"
+            graph1="Sine Qua Non is an interactive digital magazine meant to challenge the current information culture in which content is consumed passively. Through interactivity, Sine Qua Non hopes to make the reader part of the work itself."
+            graph2="I received funding from the College of Performing Arts grant to build out the first edition of the magazine. The first edition will be formally released in December. I am currently beta testing the website with a small pool of readers."
+            graph3=""
+            mainPhoto={<FlossbankPhoto mobile= {this.state.mobile}/>}
+            graphics={<FlossbankPhoto/>}
+          />
+          </Col>
+          </Row>
+          <Row xs="2">
+          <Col xs = "auto" lg = "6">
+          <ExperienceCard2
+            name="Sine Qua Non (in progress)"
             url="/sinequanon"
             date="2019-now"
             position="Creator"
@@ -318,19 +352,6 @@ class Web extends Component {
             graph3=""
             mainPhoto={<SineQuaNonPhoto mobile= {this.state.mobile}/>}
             graphics={<SineQuaNonPage/>}
-          />
-          </Col>
-          </Row>
-          <Row xs="2">
-          <Col xs = "auto" lg = "6">
-          <ExperienceCard2
-            name="Lux Et Veritas"
-            url="/luxetveritas"
-            date="2019"
-            tools="Java - Processing, Raspberry Pi"
-            graph1="Lux et veritas is a generative art piece built for LCD installation at the Becton Center at Yale. As an environmental art piece that exists in a functional space, Lux et veritas seeks to engage, communicate, and exist with people."
-            mainPhoto={<LuxGraphic mobile= {this.state.mobile}/>}
-            graphics={<LuxPage />}
           />
           </Col>
           <Col xs = "auto" lg = "6">

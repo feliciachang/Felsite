@@ -11,7 +11,7 @@ class WeiboCard extends Component {
     return(
       <div>
       <HeaderComponent
-        name="Weibo."
+        name="Sina Weibo."
         title="UI Design Intern | 2018 Summer"
         des="Weibo is one of China's largest microblogging apps with over 100 million users. Similar to Facebook, Weibo provides a suite of services outside of microblogging, such as stores, minigames, and money transfer."
         color= "#FFFCDE"

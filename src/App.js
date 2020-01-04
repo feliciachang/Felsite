@@ -16,6 +16,7 @@ import WeiboCard from "./web/weibo-card/weibo-card";
 import SineQuaNonPage from "./web/sinequanon/sinequanon";
 import LuxPage from "./web/luxetveritas/luxetveritas";
 import ReactiveLamp from "./web/ReactiveLamp/ReactiveLamp";
+import FlossbankPage from "./web/flossbank/flossbank";
 
 import ScrollToTop from "./web/ScrollToTop";
 
@@ -54,6 +55,7 @@ class App extends Component {
           <Route path="/sinequanon" exact component={SineQuaNonPage}/>
           <Route path="/luxetveritas" exact component={LuxPage}/>
           <Route path="/reactivelamp" exact component={ReactiveLamp}/>
+          <Route path="/flossbank" exact component={FlossbankPage}/>
         </Router>
       </div>
     );
