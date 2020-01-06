@@ -13,7 +13,7 @@ class NavbarComp extends Component {
         <NavLink style={{ color: "#f88379", fontSize: 16}} href="/aboutme">ABOUT</NavLink>
         </NavItem>
           <NavItem>
-          <NavLink style={{ color: "#f88379", fontSize: 16}} href="https://felswebsite.s3.amazonaws.com/FeliciaChangCV.pdf">CV</NavLink>
+          <NavLink style={{ color: "#f88379", fontSize: 16}} href="https://felswebsite.s3.amazonaws.com/FeliciaChangCV_2020.pdf">CV</NavLink>
           </NavItem>
         </Nav>
       </Navbar>

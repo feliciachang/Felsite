@@ -18,10 +18,10 @@ class FlossbankPage extends Component {
       <BlogComponent
       number="01."
       title="Overview"
-      text="From October to December of 2019, I worked with the founder to develop the complete UI/UX for advertisers looking to buy ad space. Becuase Flossbank was still a stealth startup during my time working, I was unable to conduct user interviews and instead gained most of my design insight from referencing best practices from other companies and working with the founding FLossbank team."
+      text="From October to December of 2019, I worked with the founder to develop the complete UI/UX for advertisers looking to buy ad space. The main pieces of the advertiser flow included sign up, building a campaign, and building a dashboard with campaign history and analytics."
       image={
         <div style={{margin: "0 auto"}}>
-          <img style={{objectFit: "contain",  width: "100%", height: "auto", display: "block", margin: "auto"}} src="https://felswebsite.s3.amazonaws.com/flossbanksplash.gif" />
+          <img style={{objectFit: "contain",  width: "100%", height: "auto", display: "block", margin: "auto"}} src="https://felswebsite.s3.amazonaws.com/flossbankvid.gif" />
         </div>}
       />
       <BlogComponent
@@ -77,7 +77,7 @@ class FlossbankPage extends Component {
       text="After building the UI for the main components, I needed to conceptualize all the UX details. The Campaigns page was most complicated; despite appearing as a simple database, each entry was editable and each column served as a filter. Examples of such navigation can be seen to the right."
       image={
         <div style={{margin: "0 auto"}}>
-          <img style={{objectFit: "contain",  width: "100%", height: "auto", display: "block", margin: "auto"}} src="https://felswebsite.s3.amazonaws.com/flossbankcampaignflow.gif" />
+        <img style={{objectFit: "contain",  width: "100%", height: "auto", display: "block", margin: "auto"}} src="https://felswebsite.s3.amazonaws.com/flossbankcampaignsflow.gif" />
         </div>}
       />
       <BlogComponent
@@ -94,5 +94,7 @@ class FlossbankPage extends Component {
     )
   }
 }
+
+          // <img style={{objectFit: "contain",  width: "100%", height: "auto", display: "block", margin: "auto"}} src="https://felswebsite.s3.amazonaws.com/flossbankcampaignflow.gif" />
 
 export default FlossbankPage;
