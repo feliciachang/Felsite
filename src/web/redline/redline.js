@@ -11,8 +11,8 @@ class RedLineCard extends Component {
             <Row>
             <Col xs= "auto" sm="auto" md="auto" lg="4" xl="4">
             <div>
-            <h1 >Internet Child</h1>
-            <p>Creator | 2019</p>
+            <h1 >Processing Sketches</h1>
+            <p>2020</p>
             </div>
             </Col>
             <Col>
@@ -25,18 +25,18 @@ class RedLineCard extends Component {
         </div>
         <Row xs="2">
           <Col xs = "auto" lg = "6">
-              <img className="image" src="https://felswebsite.s3.amazonaws.com/InternetChild_0853.JPG" />
+              <img className="image" src="https://felswebsite.s3.amazonaws.com/itjustsohappens1.jpg" />
           </Col>
           <Col xs = "auto" lg = "6">
-              <img className="image" src="https://felswebsite.s3.amazonaws.com/InternetChild_0856.jpg" />
+              <img className="image" src="https://felswebsite.s3.amazonaws.com/itjustsohappens2.jpg" />
           </Col>
         </Row>
         <Row xs="2">
           <Col xs = "auto" lg = "6">
-              <img className="image" src="https://felswebsite.s3.amazonaws.com/InternetChild_0863.JPG" />
+              <img className="image" src="https://felswebsite.s3.amazonaws.com/weallcrysometimes.jpg" />
           </Col>
           <Col xs = "auto" lg = "6">
-              <img className="image" src="https://felswebsite.s3.amazonaws.com/InternetChild_0864.JPG" />
+              <img className="image" src="https://felswebsite.s3.amazonaws.com/friendlymonster1.jpg" />
           </Col>
         </Row>
       </div>

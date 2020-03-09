@@ -9,7 +9,7 @@ import NavbarComp from "./navbar.js"
 
 import AboutMe from "./home/home";
 import AboutMe2 from "./home/home2";
-import Web from "./web/web";
+import Web from "./web/web2";
 import ThinkspacesCard from "./web/thinkspaces/thinkspaces-card";
 import ConservifyCard from "./web/conservify-card/conservify-card";
 import WeiboCard from "./web/weibo-card/weibo-card";
@@ -17,6 +17,9 @@ import SineQuaNonPage from "./web/sinequanon/sinequanon";
 import LuxPage from "./web/luxetveritas/luxetveritas";
 import ReactiveLamp from "./web/ReactiveLamp/ReactiveLamp";
 import FlossbankPage from "./web/flossbank/flossbank";
+import InternetCard from "./web/internet_child/internet_child";
+import WaterCard from "./web/water/water";
+import RedLineCard from "./web/redline/redline";
 
 import ScrollToTop from "./web/ScrollToTop";
 
@@ -56,6 +59,9 @@ class App extends Component {
           <Route path="/luxetveritas" exact component={LuxPage}/>
           <Route path="/reactivelamp" exact component={ReactiveLamp}/>
           <Route path="/flossbank" exact component={FlossbankPage}/>
+          <Route path="/internetchild" exact component={InternetCard}/>
+          <Route path="/materialstudy" exact component={WaterCard}/>
+          <Route path="/processing2020" exact component={RedLineCard}/>
         </Router>
       </div>
     );

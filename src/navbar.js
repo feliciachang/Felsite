@@ -5,15 +5,15 @@ import {Navbar, NavbarBrand, Nav, NavItem, NavLink} from "reactstrap";
 class NavbarComp extends Component {
   render(){
     return(
-      <Navbar>
-        <NavbarBrand href="/" style={{fontSize: 40, color: "#f88379"}}>{"//"}
+      <Navbar style={{ marginRight:"2%"}}>
+        <NavbarBrand href="/" style={{marginLeft: "4%", color: "#000000"}}>{"Felicia Chang"}
         </NavbarBrand>
         <Nav>
         <NavItem active={window.location.pathname === "/aboutme"}>
-        <NavLink style={{ color: "#f88379", fontSize: 16}} href="/aboutme">ABOUT</NavLink>
+        <NavLink style={{ color: "#000000" }} href="/aboutme">About</NavLink>
         </NavItem>
           <NavItem>
-          <NavLink style={{ color: "#f88379", fontSize: 16}} href="https://felswebsite.s3.amazonaws.com/FeliciaChangCV.pdf">CV</NavLink>
+          <NavLink style={{ color: "#000000"}} href="https://felswebsite.s3.amazonaws.com/FeliciaChangCV.pdf">CV</NavLink>
           </NavItem>
         </Nav>
       </Navbar>

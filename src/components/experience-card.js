@@ -1,29 +1,24 @@
 import React, { Component } from "react";
 import { Row, Col, Button } from "reactstrap";
 import "./experience-card.css";
+import { useMediaQuery } from 'react-responsive'
 
 class ExperienceCard extends Component {
   state = {
-    photoDisplay: false
+    photoDisplay: false,
+    mobile: false
   };
 
-  // toggle = () => {
-  //   this.setState({ photoDisplay: !this.state.photoDisplay });
-  // };
-  //
-  // photoDisplayer() {
-  //   if (this.state.photoDisplay) {
-  //     return (
-  //       <div>
-  //         <img
-  //           src="https://felswebsite.s3.amazonaws.com/ThinkspacesHome.png"
-  //           width="100%"
-  //           height="200"
-  //         />
-  //       </div>
-  //     );
-  //   }
-  // }
+  componentDidMount() {
+    if(window.innerWidth < 600) {
+      this.setState({mobile: true})
+    }
+  }
+  componentDidUpdate() {
+    if(window.innerWidth < 600) {
+      this.setState({mobile: true})
+    }
+  }
 
   render() {
     const {
@@ -34,54 +29,117 @@ class ExperienceCard extends Component {
       graph1,
       graph2,
       graph3,
-      graphics
+      graphics,
+      mainPhoto,
+      button
     } = this.props;
-    console.log(this.state.photoDisplay);
-    return (
-      <div
-        style={{
-          justifyContent: "space-between",
-          backgroundColor: "#1A1A1A",
-          color: "white",
-          paddingTop: 20,
-          paddingBottom: 20
-        }}
-      >
-        <Row>
-          <Col xs="4">
-            <div style={{ paddingLeft: 70 }}>
-              <Row>
-                <h3> {name} </h3>
-              </Row>
-              <Row>{date}</Row>
-              <Row>{position}</Row>
+
+    if(this.state.mobile) {
+      return(
+        <div>
+        <div>{mainPhoto}</div>
+        <div style = {{textAlign: "center"}}>
+          <h3> {name} </h3>
+          <p>{date}</p>
+          <p>
+          {position}
+          </p>
+          <div style= {{display: "inline-block"}}>
+          <div
+            className="expand-button"
+            onClick={() => {
+              this.setState({ photoDisplay: !this.state.photoDisplay });
+            }}
+          >
+            {" "}
+            Read More{" "}
+          </div>
+          </div>
+        </div>
+        <br/>
+        {this.state.photoDisplay ? (
+          <div>
+            <div style = {{marginLeft: 10, marginRight: 10}}>
+              Tools: {tools}
               <br />
-              <Row>{tools}</Row>
               <br />
-              <Row>
-                <div
-                  className="expand-button"
-                  onClick={() => {
-                    this.setState({ photoDisplay: !this.state.photoDisplay });
-                  }}
-                >
-                  {" "}
-                  Read More{" "}
-                </div>
-              </Row>
+              {graph1}
+              <br />
+              <br />
+              {graph2}
+              <br />
+              <br />
+              {graph3}
             </div>
-          </Col>
-          <Col xs="7">
-            <Row>{graph1}</Row>
-            <br />
-            <Row>{graph2}</Row>
-            <br />
-            <Row>{graph3}</Row>
-          </Col>
-        </Row>
-        {this.state.photoDisplay ? <div>{graphics}</div> : <div />}
-      </div>
-    );
+            {graphics}
+            <br/>
+            <br/>
+          </div>
+        ) : (
+          <div />
+        )}
+        </div>
+      )
+    }
+    else {
+      return(
+        <div
+          style={{
+            justifyContent: "space-between",
+            paddingTop: 20,
+            paddingBottom: 20
+          }}
+        >
+          <Row>
+            <Col xs="8">
+              <div>{mainPhoto}</div>
+            </Col>
+            <Col xs="3">
+              <div className="vertical-center">
+                <Row>
+                  <h3> {name} </h3>
+                </Row>
+                <Row>{date}</Row>
+                <Row>{position}</Row>
+                <br />
+                <Row>
+                  <div
+                    className="expand-button"
+                    onClick={() => {
+                      this.setState({ photoDisplay: !this.state.photoDisplay });
+                    }}
+                  >
+                    {" "}
+                    Read More{" "}
+                  </div>
+                </Row>
+              </div>
+            </Col>
+          </Row>
+          {this.state.photoDisplay ? (
+            <div>
+              <div style = {{marginLeft: "20%", marginRight: "20%", paddingTop: 40}} >
+                Tools: {tools}
+                <br />
+                <br />
+                {graph1}
+                <br />
+                <br />
+                {graph2}
+                <br />
+                <br />
+                {graph3}
+              </div>
+              {graphics}
+              <br/>
+              <br/>
+            </div>
+          ) : (
+            <div />
+          )}
+        </div>
+      )
+    }
   }
 }
 export default ExperienceCard;

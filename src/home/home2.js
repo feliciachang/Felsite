@@ -27,11 +27,21 @@ const TogglePhoto = show => {
 // <p>
 // Find me on  <a href="https://www.linkedin.com/in/felicia-chang-20666112a/">
 //   LinkedIn</a>, <a href="https://twitter.com/felchang"> Twitter </a>, and <a href="https://github.com/feliciachang"> Github </a>
-// </p>
+// </p>  color: "#f88379",
+// <a style={{paddingTop: "5px", fontSize: "80px"}}>Felicia Chang</a> &nbsp;
+// <a style={{paddingTop: "5px", fontSize: "20px"}}>is</a> &nbsp;
+// <a style={{paddingTop: "5px", fontSize: "30px"}}>a</a> &nbsp;
+// <a style={{paddingTop: "5px", fontSize: "60px"}}>designer</a> &nbsp;
+// <a style={{paddingTop: "5px", fontSize: "30px"}}>exploring</a> &nbsp;
+// <a style={{paddingTop: "5px", fontSize: "20px"}}>the</a> &nbsp;
+// <a style={{paddingTop: "5px", fontSize: "60px"}}>future of computing</a> &nbsp;
+// <a style={{paddingTop: "5px", fontSize: "30px"}}>through</a> &nbsp;
 class AboutMe2 extends Component {
   state = {
     compile: false,
-    mobile: false
+    mobile: false,
+    left: 0,
+    right: 0
   };
 
   componentDidMount() {
@@ -43,11 +53,10 @@ class AboutMe2 extends Component {
   render() {
     console.log(this.state.compile);
     return (
-      <div>
-
-        <h1 style={{color: "#f88379", fontSize:50}}>Hey there! Felicia here. </h1>
-        <h2 style={{lineHeight: 1.5, fontWeight: 300}}>I'm a product designer exploring the future of computing through pixels and code.
-        </h2>
+      <div style={{textAlign: "justify"}}>
+        <h5 style={{marginLeft: "3%", marginRight: "5%", lineHeight: 1.5, fontWeight: 400}}>
+        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  is an artist/designer/engineer.
+        </h5>
       </div>
     );
   }

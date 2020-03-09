@@ -379,7 +379,7 @@ class Web extends Component {
           <Row xs="2">
           <Col xs = "auto" lg = "6">
           <h6 style={{marginLeft: "3%", marginRight: "5%", marginTop: "5%", marginBottom: "10%", fontWeight: 500}}>
-          Currently punching pixels at Yale University, B.A. in Computing and the Arts. Previously, ux engineer at conservify and ui designer at weibo.
+          Currently punching pixels at Yale University, B.A. in Computing and the Arts. Previously, UX Engineer at <a style={{textDecoration: "underline", color:"#1a1a1a"}} href="http://conservify.org/">Conservify</a> and UI Designer at <a style={{textDecoration: "underline", color:"#1a1a1a"}} href="https://en.wikipedia.org/wiki/Sina_Weibo">Sina Weibo</a>.
           </h6>
           </Col>
           <Col xs = "auto" lg = "6">
@@ -490,7 +490,11 @@ class Web extends Component {
           />
           </div>
           </div>
-
+          <br/>
+          <br/>
+          <h6 style={{marginLeft: "3%", marginRight: "5%", marginTop: "5%", marginBottom: "5%", fontWeight: 500}}>
+          &#9655;  You can also find me on <a style={{textDecoration: "underline", color:"#1a1a1a"}} href="https://twitter.com/felchang">Twitter</a> or feel free to send a <a style={{textDecoration: "underline", color:"#1a1a1a"}} href="mailto:felicia.chang@yale.edu">message</a>.
+          </h6>
       </div>
       </div>
     );

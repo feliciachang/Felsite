@@ -11,8 +11,8 @@ class InternetCard extends Component {
             <Row>
             <Col xs= "auto" sm="auto" md="auto" lg="4" xl="4">
             <div>
-            <h1 >Internet Child</h1>
-            <p>Creator | 2019</p>
+            <h1 >Processing Sketches</h1>
+            <p>2019</p>
             </div>
             </Col>
             <Col>
