@@ -31,6 +31,7 @@ class RedLineCard extends Component {
               <img className="image" src="https://felswebsite.s3.amazonaws.com/itjustsohappens2.jpg" />
           </Col>
         </Row>
+        <br/>
         <Row xs="2">
           <Col xs = "auto" lg = "6">
               <img className="image" src="https://felswebsite.s3.amazonaws.com/weallcrysometimes.jpg" />

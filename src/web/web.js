@@ -40,6 +40,22 @@ class SineQuaNonPhoto extends Component {
   }
 }
 
+class YERPhoto extends Component {
+  render() {
+      return (
+        <div className="container">
+          <LazyLoad offset={100}>
+          <img className="image" src="https://felswebsite.s3.amazonaws.com/yercover.png" />
+          </LazyLoad>
+          <div className="middle">
+            <div className="text">Yale Economic Review</div>
+            <div className="text2">a magazine on economic research at Yale 2020 (ongoing)</div>
+          </div>
+        </div>
+      );
+  }
+}
+
 class FlossbankPhoto extends Component {
   render() {
       return (

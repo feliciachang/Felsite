@@ -11,6 +11,7 @@ import AboutMe from "./home/home";
 import AboutMe2 from "./home/home2";
 import Web from "./web/web2";
 import ThinkspacesCard from "./web/thinkspaces/thinkspaces-card";
+import YERCard from "./web/yer/yer";
 import ConservifyCard from "./web/conservify-card/conservify-card";
 import WeiboCard from "./web/weibo-card/weibo-card";
 import SineQuaNonPage from "./web/sinequanon/sinequanon";
@@ -53,6 +54,7 @@ class App extends Component {
           <Route path="/" exact component={Web}/>
           <Route path="/aboutme" exact component={AboutMe}/>
           <Route path="/thinkspaces" exact component={ThinkspacesCard}/>
+          <Route path="/yer" exact component={YERCard}/>
           <Route path="/conservify" exact component={ConservifyCard}/>
           <Route path="/weibo" exact component={WeiboCard}/>
           <Route path="/sinequanon" exact component={SineQuaNonPage}/>

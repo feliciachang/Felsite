@@ -13,6 +13,7 @@ import LuxPage from "./luxetveritas/luxetveritas";
 import AboutMe2 from "../home/home2";
 import FlossbankPage from "./flossbank/flossbank";
 import InternetCard from "./internet_child/internet_child"
+import YERCard from "./yer/yer";
 import WaterCard from "./water/water"
 
 import { Redirect } from "react-router-dom";
@@ -30,6 +31,18 @@ class SineQuaNonPhoto extends Component {
         <div style={{maxWidth:"60vw"}}>
           <LazyLoad offset={100}>
           <img className="image" src="https://felswebsite.s3.amazonaws.com/sinequanoncover.png" />
+          </LazyLoad>
+        </div>
+      );
+  }
+}
+
+class YERPhoto extends Component {
+  render() {
+      return (
+        <div style={{maxWidth:"60vw"}}>
+          <LazyLoad offset={100}>
+          <img className="image" src="https://felswebsite.s3.amazonaws.com/yercover.png" />
           </LazyLoad>
         </div>
       );
@@ -403,6 +416,20 @@ class Web extends Component {
             graph3=""
             mainPhoto={<ThinkspacesPhoto mobile= {this.state.mobile}/>}
             graphics={<ThinkspacesCard />}
+          />
+          </div>
+          <div style={{flex: "0 0 auto", cursor: "pointer"}}>
+          <ExperienceCard2
+            name="Yale Economic Review"
+            url="/yer"
+            date="2020-now"
+            position="Web Editor"
+            tools="ReactJS, Contentful, AdobeXD"
+            graph1="The Yale Economic Review is a print and digital magazine on economic research by students at Yale. After being discontinued for two years, a team of economic students are are looking to revamp and restart the publication"
+            graph2=""
+            graph3=""
+            mainPhoto={<YERPhoto mobile= {this.state.mobile}/>}
+            graphics={<YERCard />}
           />
           </div>
           <div style={{flex: "0 0 auto", cursor: "pointer"}}>
