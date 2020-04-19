@@ -9,11 +9,8 @@ class NavbarComp extends Component {
         <NavbarBrand href="/" style={{marginLeft: "4%", color: "#000000"}}>{"Felicia Chang"}
         </NavbarBrand>
         <Nav>
-        <NavItem active={window.location.pathname === "/aboutme"}>
-        <NavLink style={{ color: "#000000" }} href="/aboutme">About</NavLink>
-        </NavItem>
           <NavItem>
-          <NavLink style={{ color: "#000000"}} href="https://felswebsite.s3.amazonaws.com/FeliciaChangCV.pdf">CV</NavLink>
+          <NavLink style={{ color: "#000000"}} href="https://felswebsite.s3.amazonaws.com/FeliciaChang_Resume.pdf">Resume</NavLink>
           </NavItem>
         </Nav>
       </Navbar>

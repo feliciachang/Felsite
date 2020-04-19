@@ -66,7 +66,7 @@ class ThinkspacesPhoto extends Component {
       return (
         <div style={{maxWidth:"60vw"}}>
           <LazyLoad offset={100}>
-          <img className="image" src="https://felswebsite.s3.amazonaws.com/thinkspacescover.png" />
+          <img className="image" src="https://felswebsite.s3.amazonaws.com/Group+334.png" />
           </LazyLoad>
         </div>
       );
