@@ -5,45 +5,131 @@ import BlogComponent from "../BlogComponent";
 import HeaderComponent from "../HeaderComponent";
 
 class SineQuaNonPage extends Component {
-  render () {
-    return(
-      <div style={{marginBottom: "10%"}}>
-      <HeaderComponent
-      name="Sine Qua Non."
-      title="Personal Project | 2019 - Now"
-      des="Sine Qua Non is an interactive digital magazine meant to challenge the current information culture in which content is consumed passively. Through interactivity, Sine Qua Non hopes to make the reader part of the work itself."
-      img="https://felswebsite.s3.amazonaws.com/sine.png"
-      />
-      <BlogComponent
-      number="01."
-      title="My Goal"
-      text="Over the summer, I started to explore the world of generative art through P5JS and Processing. I became increasingly interested in how interactivity in P5JS could enhance the poetry reading experience. As a result, I created this website called Sine Qua Non that documents a few poetry collaborations I have done with friends."
-      image={
-        <div style={{margin: "0 auto"}}>
-          <img style={{objectFit: "contain",  width: "100%", height: "auto", display: "block", margin: "auto"}} src="https://felswebsite.s3.amazonaws.com/sineabout.gif" />
-        </div>}
-      />
-      <BlogComponent
-      number="02."
-      title="Design Concept"
-      text="I intentionally chose colors that were more muted and natural paired with a serif font. In doing so, I wanted to evoke the intimate, yet nostalgic feeling of reading an aged book in which the pages are a little yellowed and discolored. The interactivity that complements each poem is meant to enhance the meaning of the poem in a visual way. It is both immersive yet minimal so as not to distract from the reading."
-      image={
-        <div style={{margin: "0 auto"}}>
-          <img style={{objectFit: "contain", width: "100%", height: "auto", display: "block", margin: "auto"}} src="https://felswebsite.s3.amazonaws.com/sinepoem.png" />
-        </div>}
-      />
-      <BlogComponent
-      number="03."
-      title="Technical Challenges"
-      text="To build this website, I have been using React with a P5JS wrapper. Unfortunately, this precludes me from using P5JS.dom, which provides HTML and CSS bindings. For future development, I may move away from React and develop the website in vanilla Javascript."
-      image={
-        <div style={{margin: "0 auto"}}>
-          <img style={{objectFit: "contain", width: "100%", height: "auto", display: "block", margin: "auto"}} src="https://felswebsite.s3.amazonaws.com/sinedrowning.png" />
-        </div>}
-      />
+  render() {
+    return (
+      <div style={{ marginBottom: "10%" }}>
+        <HeaderComponent
+          name="Sine Qua Non."
+          title="Personal Project | 2019 - Now"
+          des="Sine Qua Non is an interactive digital magazine meant to challenge the current information culture in which content is consumed passively. Through interactivity, Sine Qua Non hopes to make the reader part of the work itself."
+          img="https://felswebsite.s3.amazonaws.com/sine.png"
+        />
+        <BlogComponent
+          number="01."
+          title="My Goal"
+          text="Over the summer, I started to explore the world of generative art through P5JS and Processing. I became increasingly interested in how interactivity in P5JS could enhance the poetry reading experience. As a result, I created this website called Sine Qua Non that documents a few poetry collaborations I have done with friends."
+          image={
+            <div style={{ margin: "0 auto" }}>
+              <img
+                style={{
+                  objectFit: "contain",
+                  width: "100%",
+                  height: "auto",
+                  display: "block",
+                  margin: "auto",
+                }}
+                src="https://felswebsite.s3.amazonaws.com/sineabout.gif"
+              />
+            </div>
+          }
+        />
+        <BlogComponent
+          number="02."
+          title="Design Concept"
+          text="I paired muted and natural colors with a serif font to evoke the nostalgic feeling of reading an aged book. The interactivity that complements each poem serves to enhance the meaning of the poem in a visual way. It is both immersive yet minimal so as not to distract from the reading."
+          image={
+            <div style={{ margin: "0 auto" }}>
+              <img
+                style={{
+                  objectFit: "contain",
+                  width: "100%",
+                  height: "auto",
+                  display: "block",
+                  margin: "auto",
+                }}
+                src="https://felswebsite.s3.amazonaws.com/sinepoem.png"
+              />
+            </div>
+          }
+        />
+        <BlogComponent
+          number=""
+          title=""
+          text=""
+          image={
+            <div style={{ margin: "0 auto" }}>
+              <img
+                style={{
+                  objectFit: "contain",
+                  width: "100%",
+                  height: "auto",
+                  display: "block",
+                  margin: "auto",
+                }}
+                src="https://felswebsite.s3.amazonaws.com/sinedrowning.png"
+              />
+            </div>
+          }
+        />
+        <BlogComponent
+          number="03"
+          title="Evolving"
+          text="After a few months of development, I decided to rebrand Sine Qua Non. I wanted to create platform that did not just facilitate the consumption of interactive work was not just suitable for consumption but also for the creation of such work. Sine Qua Non now lives under Alibi."
+          image={
+            <div style={{ margin: "0 auto" }}>
+              <img
+                style={{
+                  objectFit: "contain",
+                  width: "100%",
+                  height: "auto",
+                  display: "block",
+                  margin: "auto",
+                }}
+                src="https://felswebsite.s3.amazonaws.com/alibi_intro.gif"
+              />
+            </div>
+          }
+        />
+        <BlogComponent
+          number="04"
+          title="Creation"
+          text="Using a dynamic editor that takes code and visual input, users have the freedome to build and write their own compelling work."
+          image={
+            <div style={{ margin: "0 auto" }}>
+              <img
+                style={{
+                  objectFit: "contain",
+                  width: "100%",
+                  height: "auto",
+                  display: "block",
+                  margin: "auto",
+                }}
+                src="https://felswebsite.s3.amazonaws.com/alibi_editor.gif"
+              />
+            </div>
+          }
+        />
+        <BlogComponent
+          number="04"
+          title="The Interface"
+          text="Visually, the Alibi interface blends the traditional aspirations of Sine Qua Non with the minimalism of a creation-based interface. The Alibi identity takes a backseat, allowing the poetry and interactive work to shine."
+          image={
+            <div style={{ margin: "0 auto" }}>
+              <img
+                style={{
+                  objectFit: "contain",
+                  width: "100%",
+                  height: "auto",
+                  display: "block",
+                  margin: "auto",
+                }}
+                src="https://felswebsite.s3.amazonaws.com/alibi_interface.gif"
+              />
+            </div>
+          }
+        />
       </div>
-
-    )
+    );
   }
 }
 //

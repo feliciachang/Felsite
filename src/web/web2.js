@@ -39,6 +39,21 @@ class SineQuaNonPhoto extends Component {
   }
 }
 
+class PoliticPhoto extends Component {
+  render() {
+    return (
+      <div style={{ maxWidth: "60vw" }}>
+        <LazyLoad offset={100}>
+          <img
+            className="image"
+            src="https://felswebsite.s3.amazonaws.com/politichome.png"
+          />
+        </LazyLoad>
+      </div>
+    );
+  }
+}
+
 class YERPhoto extends Component {
   render() {
     return (
@@ -479,6 +494,20 @@ class Web extends Component {
                 graph2=""
                 graph3=""
                 mainPhoto={<ThinkspacesPhoto mobile={this.state.mobile} />}
+                graphics={<ThinkspacesCard />}
+              />
+            </div>
+            <div style={{ flex: "0 0 auto", cursor: "pointer" }}>
+              <ExperienceCard2
+                name="The Yale Politic"
+                url="/politic"
+                date="2020-now"
+                position="Technical Director"
+                tools="ReactJS, Netlify, Wordpress API"
+                graph1="The Politic is Yale’s undergraduate journal of politics and culture. One of the main publications at Yale, the Politic commissioned me to redesign their website from scratch over one summer."
+                graph2=""
+                graph3=""
+                mainPhoto={<PoliticPhoto mobile={this.state.mobile} />}
                 graphics={<ThinkspacesCard />}
               />
             </div>
