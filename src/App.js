@@ -8,7 +8,6 @@ import ReactGA from "react-ga";
 import NavbarComp from "./navbar.js";
 
 import AboutMe from "./home/home";
-import AboutMe2 from "./home/home2";
 import Web from "./web/web2";
 import ThinkspacesCard from "./web/thinkspaces/thinkspaces-card";
 import YERCard from "./web/yer/yer";
@@ -25,12 +24,6 @@ import PoliticCard from "./web/politic/politic";
 
 import ScrollToTop from "./web/ScrollToTop";
 
-var divStyle = {
-  margin: "50px",
-};
-var bodyStyle = {
-  margin: "80px",
-};
 
 ReactGA.initialize("UA-148340396-1");
 ReactGA.pageview(window.location.pathname + window.location.search);

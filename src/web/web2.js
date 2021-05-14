@@ -1,28 +1,16 @@
 import React, { Component } from "react";
 import { Row, Col } from "reactstrap";
-import ExperienceCard from "../components/experience-card";
 import ThinkspacesCard from "./thinkspaces/thinkspaces-card";
 import ConservifyCard from "./conservify-card/conservify-card";
-import SamsaraCard from "./samsara-card/samsara-card";
-import WeiboCard from "./weibo-card/weibo-card";
-import YFashionCard from "./yfashion-card/yfashion-card";
 import ExperienceCard2 from "../components/experience-card2";
 import SineQuaNonPage from "./sinequanon/sinequanon";
-import Posters from "./Posters/poster";
-import LuxPage from "./luxetveritas/luxetveritas";
-import AboutMe2 from "../home/home2";
-import FlossbankPage from "./flossbank/flossbank";
 import InternetCard from "./internet_child/internet_child";
 import YERCard from "./yer/yer";
-import WaterCard from "./water/water";
 
 import { Redirect } from "react-router-dom";
 import LazyLoad from "react-lazyload";
 import "./web.css";
 
-var bodyStyle = {
-  margin: "80px",
-};
 
 class SineQuaNonPhoto extends Component {
   render() {
@@ -441,22 +429,7 @@ class Web extends Component {
                   fontWeight: 500,
                 }}
               >
-                Currently punching pixels at Yale University, B.A. in Computing
-                and the Arts. Previously, UX Engineer at{" "}
-                <a
-                  style={{ textDecoration: "underline", color: "#1a1a1a" }}
-                  href="http://conservify.org/"
-                >
-                  Conservify
-                </a>{" "}
-                and UI Designer at{" "}
-                <a
-                  style={{ textDecoration: "underline", color: "#1a1a1a" }}
-                  href="https://en.wikipedia.org/wiki/Sina_Weibo"
-                >
-                  Sina Weibo
-                </a>
-                .
+                Writing words, while loops and wandering wectors... 
               </h6>
             </Col>
             <Col xs="auto" lg="6" />
